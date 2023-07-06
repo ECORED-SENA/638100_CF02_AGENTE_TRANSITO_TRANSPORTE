@@ -29,6 +29,15 @@
 .banner-interno__fondo
   background-image: url('../assets/curso/temas/mini-portada.png') !important
 
+.fa-ul
+  margin-left: 0 !important
+  li
+    display: flex !important
+    &:before
+      position: relative
+      margin-right: 7px
+      font-size: 1.4rem
+
 .fondo-intro
   background: url('../assets/curso/temas/intro/fondo.png')
   background-position: center
@@ -43,6 +52,58 @@
   @media screen and (max-width: 992px)
     background-size: cover
     margin-inline: -1.4rem
+.fondo2-t1
+  position: relative
+  .row, figure, p, h3, h4, h5, .titulo-sexto.color-primario, 
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -48px
+    margin-top: 15rem 
+    width: calc( 100% + 96px )
+    height: 80%       
+    background: #FAF8F3
+    background-size: 100% auto
+    background-position: center top
+    @media (max-width: 810px)
+      height: 100%
+.fondo4-t1
+  position: relative
+  .row, figure, p, h3, h4, h5, .titulo-sexto.color-primario, 
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -48px
+    margin-top: -4rem 
+    width: calc( 100% + 96px )
+    height: 122%       
+    background-image: url('../assets/curso/temas/t1/fondo6.png')
+    background-size: 100% auto  
+    background-repeat: no-repeat
+    background-position: center top   
+    @media (max-width: 810px)
+      background: #FAF8F3 
+      height: 100%    
+.fondo5-t1
+  position: relative
+  .row, figure, p, h3, h4, h5, .titulo-sexto.color-primario, 
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -48px
+    margin-top: -4rem 
+    width: calc( 100% + 96px )
+    height: 122%       
+    background-image: url('../assets/curso/temas/t1/fondo7.png')
+    background-size: 100% auto  
+    background-repeat: no-repeat
+    background-position: center top   
+    @media (max-width: 810px)
+      background: #FAF8F3 
+      height: 100%        
 .fondo-t2
   background: url('../assets/curso/temas/t2/fondo.png')
   background-position: center top
@@ -61,6 +122,15 @@
   @media screen and (max-width: 992px)
     background-size: cover
     margin-inline: -1.4rem
+.fondo3-t1
+  background: url('../assets/curso/temas/t4/fondo.png')
+  background-position: center
+  background-size: cover
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    background-size: cover
+    margin-inline: -1.4rem    
 .fondo-t3
   background: url('../assets/curso/temas/t3/fondo3.png')
   background-position: center
@@ -113,7 +183,8 @@
   background-color:#D3E2F1
 .bg-blue2
   background-color:#D9E5F6
-
+.bg-blue3
+  background-color:#DEE9F0
   
 .t-gold
   color: #6C4F0A
@@ -200,3 +271,145 @@
       transition: all 0.3s ease-out
   p
     margin-top: 95px
+
+.list 
+  width: 100%
+  display: flex !important
+  &__item
+    &__icon 
+      position: relative
+      width: 30px
+      margin-right: -1rem
+      margin-top: 4px
+      img 
+        width: 30px
+        vertical-align: middle
+        
+  &__txt 
+    p:first-child,
+    h4:first-child 
+      margin-top: 6px       
+
+.box-ico
+  background-color: #000000
+  border-top: 7px solid white
+  *
+    color: white 
+
+.top-ico
+  border-top: 7px solid #FAF8F3   
+
+.linea-tiempo-d
+  &__item
+    &--selected
+      .linea-tiempo-d
+        &__item
+          &__content
+            background-color: #DEE9F0 !important
+            &__title
+              font-weight: $base-bold-font-weight
+          &__number
+            font-weight: $base-bold-font-weight
+    &__col-number
+      display: flex
+      flex-direction: column
+
+    &__dots
+      flex: 1
+      display: flex
+      justify-content: center
+      padding: 5px 0
+      &:after
+        content: ''
+        display: block
+        width: 0
+        height: 100%
+        border-left: 5px dotted $color-sistema-e
+    &__number
+      display: flex
+      align-items: center
+      justify-content: center
+      min-width: 40px
+      height: 40px
+      cursor: pointer
+      transition: background-color .3s ease-in-out, color .3s ease-in-out
+    &__content
+      background-color: #DEE9F0 !important     
+      &__title
+        display: flex
+        align-items: center
+        height: 40px
+        cursor: pointer
+        &:hover
+          font-weight: $base-bold-font-weight
+      &__slot
+        overflow: hidden
+        transition: height .5s ease-in-out
+  .tarjeta
+    border-radius: 5px
+.linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  background-color: #AECADC !important
+  color: #12263F
+  
+.linea-tiempo-d__item__number
+  background-color: #AECADC !important
+
+@media (max-width: 412px)
+  .linea-tiempo-d__item__content__title 
+    height: 85px !important      
+
+.fondo-1    
+  background-color: #FDF4DF
+  border-radius: 15px
+
+.fondo-2  
+  background-image: url(../assets/curso/temas/t1/fondo3.png)
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center     
+
+.title-1
+  background-color: #FBF0D6  
+
+.up
+  z-index: 3 !important  
+
+.slyder-f__btn
+  color: #D40A32 !important   
+
+.box-radius
+  border-radius: 15px  
+
+.bgw
+  background-color: white
+
+.table-w
+  width:270px !important          
+
+.bgt1
+  background-color: #2B2B2D
+  color: white !important      
+
+.tarjeta--gris    
+  background-image: url(../assets/curso/temas/t1/fondo-pasos.png)
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center   
+
+.linea-tiempo-c__header__item__line-container::after, .linea-tiempo-c__header__item__line-container::before
+  background-color: #294550 
+.linea-tiempo-c__header__item__dot
+  border: 3px solid #294550   
+
+.bgn
+  background-color: #FABF40 
+  border-radius: 10px
+
+.bgcard
+  background-color: #F9E2A9  
+
+.ts
+  *
+    color: #12263F !important      
+.bg8
+  background-color: #DEE9F0    
