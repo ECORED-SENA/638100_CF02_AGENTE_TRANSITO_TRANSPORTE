@@ -1,8 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo:
+      'Procedimientos del primer responsable en accidentes de tránsito',
+    descripcionCurso:
+      'El procedimiento a realizar en el lugar de los hechos de un accidente de tránsito indica que las funciones principales del primer responsable son evaluar la escena y los lesionados, activar el servicio médico, reportar el suceso a las autoridades competentes, la preservación y entrega de la información y del material probatorio recaudado que será sometido a cadena de custodia (EMP y EF) a la Policía Judicial. ',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -12,6 +14,14 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-4.svg'),
       },
     ],
   },
@@ -31,13 +41,41 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo:
+          'Tratamiento en el lugar de los hechos en los accidentes de tránsito',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo:
+              'Generalidades para el tratamiento de los accidentes de tránsito',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo:
+              'Técnicas de fijación topográfica en accidentes de tránsito',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Fijación fotográfica en los accidentes de tránsito',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Fijación fotográfica en los accidentes de tránsito',
+            hash: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo: 'Técnicas de inspección al cadáver ASD',
+            hash: 't_1_5',
+          },
+          {
+            numero: '1.6',
+            titulo: 'Recolección de la información',
+            hash: 't_1_6',
           },
         ],
       },
@@ -45,14 +83,72 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Actuaciones del primer responsable',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Protección del lugar de los hechos',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Actividades de aseguramiento del lugar de los hechos',
+            hash: 't_2_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Procedimiento de la cadena de custodia',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Elementos materiales de prueba y evidencia física',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Requisitos de la cadena de custodia',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Formato de primer responsable',
+            hash: 't_3_3',
+          },
+          {
+            numero: '3.4',
+            titulo: 'Formato de registro de la cadena de custodia',
+            hash: 't_3_4',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo:
+          'Equipos y plataformas tecnológicas para el tránsito y el transporte',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Técnicas de uso en equipos para pruebas de alcohol',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo: 'Técnicas de uso en equipos para pruebas de alcohol',
+            hash: 't_4_2',
+          },
+          {
+            numero: '4.3',
+            titulo: 'Características y tipos de radares de velocidad',
+            hash: 't_4_3',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -102,32 +198,138 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema:
+        'Tratamiento en el lugar de los hechos en los accidentes de tránsito',
+      referencia:
+        'Ley 906 de 2004. [Congreso de la República].  Por la cual se expide el Código de Procedimiento Penal. Septiembre 1° de 2004. DO. No. 45.658. ',
+      tipo: 'Otro',
+      link:
+        'http://www.secretariasenado.gov.co/senado/basedoc/ley_0906_2004.html',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema:
+        'Tratamiento en el lugar de los hechos en los accidentes de tránsito',
+      referencia:
+        'Resolución 0011268 de 2012. [Ministerio de Transporte]. Por la cual se adopta el nuevo informe policial de accidentes de tránsito (IPAT), su manual de diligenciamiento y se dictan otras disposiciones. Diciembre 6 de 2012. ',
+      tipo: 'Otro',
+      link: 'https://web.mintransporte.gov.co/jspui/handle/001/5348',
+    },
+    {
+      tema: 'Procedimiento de la cadena de custodia',
+      referencia:
+        'Fiscalía General de la Nación. 2018. <em>Manual del sistema de cadena de custodia</em>. Fiscalía General de la Nación. ',
+      tipo: 'Otro',
+      link:
+        'https://www.fiscalia.gov.co/colombia/wp-content/uploads/MANUAL-DEL-SISTEMA-DE-CADENA-DE-CUSTODIA.pdf',
+    },
+    {
+      tema: 'Tratamiento en el lugar de los hechos en accidentes de tránsito',
+      referencia:
+        'Ramos, H. y Quiroga, L. (2017). <em>Investigación de accidentes de tránsito en Colombia</em>. Policía Nacional. ',
+      tipo: 'Otro',
+      link:
+        'https://www.policia.gov.co/contenido/investigacion-accidentes-transito-colombia ',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Acordonamiento',
+      significado:
+        'Acción de aislar el lugar de los hechos considerando sus características mediante la utilización de cintas, barricadas, personas, vehículos, entre otros (Fiscalía General de la Nación, 2018).',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Bioseguridad',
+      significado:
+        'Conjunto de medidas preventivas encaminadas a minimizar y controlar los factores de riesgo biológico, físico o químico en las personas expuestas a los mismos (Fiscalía General de la Nación, 2018).',
+    },
+    {
+      termino: 'Custodio',
+      significado:
+        'Persona que vigila y guarda con cuidado y responsabilidad un EMP y EF o un lugar de los hechos (Fiscalía General de la Nación, 2018).',
+    },
+    {
+      termino: 'Embalar',
+      significado:
+        'Es el procedimiento técnico utilizado para empacar, preservar y proteger los EMP y EF en el contenedor adecuado, con el fin de ser enviados para el análisis o el almacenamiento (Fiscalía General de la Nación, 2018).',
+    },
+    {
+      termino: 'Epicrisis',
+      significado:
+        'Resumen de la atención médica desde el ingreso hasta el egreso en la institución de salud (Fiscalía General de la Nación, 2018).',
+    },
+    {
+      termino: 'Evidencia traza',
+      significado:
+        'Es toda aquella evidencia que no es perceptible por los órganos de los sentidos (Fiscalía General de la Nación, 2018).',
+    },
+    {
+      termino: 'Macroelemento',
+      significado:
+        'Son objetos de gran tamaño, como naves, aeronaves, vehículos automotores, máquinas, grúas y otros similares, después de ser examinados por peritos para recoger elementos materiales probatorios y evidencia física que se hallen en estos.',
+    },
+    {
+      termino: 'Muestra',
+      significado:
+        'Es definida como la fracción de un material sobre la que se estudian ciertas características, que  posteriormente se generalizan a todo el conjunto (Fiscalía General de la Nación, 2018).',
     },
   ],
   referencias: [
     {
+      referencia:
+        'Álzate, C. y Buitrago, J. (2001). Manual de medicina legal tanatológica. Universidad de Manizales.',
+      link:
+        'https://ridum.umanizales.edu.co/xmlui/bitstream/handle/20.500.12746/387/Microsoft%20Word%20-%2140_Alzate_Ramirez_Clemencia_2001.pdf?sequence=1&isAllowed=y',
+    },
+    {
       referencia: '',
       link: '',
+    },
+    {
+      referencia:
+        'Corte Constitucional. (1991). Constitución Política de Colombia. Corte Constitucional. ',
+      link:
+        'https://www.corteconstitucional.gov.co/inicio/Constitucion%20politica%20de%20Colombia%20-%202015.pdf',
+    },
+    {
+      referencia:
+        'Fiscalía General de la Nación. 2018. Manual del sistema de cadena de custodia. Fiscalía General de la Nación. ',
+      link:
+        'https://www.fiscalia.gov.co/colombia/wp-content/uploads/MANUAL-DEL-SISTEMA-DE-CADENA-DE-CUSTODIA.pdf',
+    },
+    {
+      referencia:
+        'Ley 906 de 2004. [Congreso de la República].  Por la cual se expide el Código de Procedimiento Penal. Septiembre 1° de 2004. DO. No. 45.658. ',
+      link:
+        'http://www.secretariasenado.gov.co/senado/basedoc/ley_0906_2004.html',
+    },
+    {
+      referencia:
+        'Ley 769 de 2002. [Congreso de la República]. Por la cual se expide el Código Nacional de Tránsito Terrestre y se dictan otras disposiciones. Septiembre 13 de 2002. DO. No. 44.932. ',
+      link:
+        'http://www.secretariasenado.gov.co/senado/basedoc/ley_0769_2002.html',
+    },
+    {
+      referencia:
+        'Ramos, H. y Quiroga, L. (2017). Investigación de accidentes de tránsito en Colombia. Policía Nacional. ',
+      link:
+        'https://www.policia.gov.co/contenido/investigacion-accidentes-transito-colombia',
+    },
+    {
+      referencia:
+        'Resolución 0011268 de 2012. [Ministerio de Transporte]. Por la cual se adopta el nuevo informe policial de accidentes de tránsito (IPAT), su manual de diligenciamiento y se dictan otras disposiciones. Diciembre 6 de 2012. ',
+      link: 'https://web.mintransporte.gov.co/jspui/handle/001/5348',
+    },
+    {
+      referencia:
+        'Rodríguez, F. (2013). Topografía aplicada a la investigación de accidentes de tránsito. Universidad Francisco José de Caldas. ',
+      link:
+        'https://revistas.udistrital.edu.co/index.php/bsa/article/view/12855',
+    },
+    {
+      referencia:
+        'Sierra, L. (2008). La prueba en el proceso penal colombiano. Fiscalía General de la Nación.',
+      link:
+        'https://www.fiscalia.gov.co/colombia/wp-content/uploads/2012/01/LaPruebaenelProcesoPenalColombiano.pdf',
     },
   ],
   creditos: [
@@ -151,10 +353,26 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Hoover Fabián Ramos Enríquez',
+          cargo: 'Experto temático',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de la Industria, la Empresa y los servicios - CIESSAN',
+        },
+        {
+          nombre: 'Diego Acevedo Guevara',
+          cargo: 'Diseñador instruccional',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Asesora metodológica',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Julia Isabel Roberto',
+          cargo: 'Correctora de estilo',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
         },
       ],
     },
@@ -162,28 +380,40 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de Contenidos Digitales',
+          nombre: 'Carmen Alicia Martínez Torres',
+          cargo: 'Animador y Productor Multimedia',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Wilson Andrés Arenales Cáceres',
+          cargo: 'Storyboard e ilustración',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Camilo Andrés Bolaño Rey',
+          cargo: 'Locución',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Yerson Fabián Zarate Saavedra',
+          cargo: 'Diseñador web',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Andrea Paola Botello De la Rosa',
           cargo: 'Desarrollador Fullstack',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
+          nombre: 'Emilsen Alfonso Bautista',
+          cargo: 'Actividad didáctica',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Actividad Didáctica',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },
@@ -191,22 +421,22 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Zuleidy María Ruiz Torres',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
-        },
-        {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
-        },
-        {
           nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Zuleidy María Ruíz Torres',
+          cargo: 'Validador de Recursos Educativos Digitales',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Luis Gabriel Urueta Álvarez',
+          cargo: 'Validador de Recursos Educativos Digitales',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },

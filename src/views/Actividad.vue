@@ -7,17 +7,17 @@
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
         .tarjeta.h-100.d-flex.align-items-center.p-4
           figure
-            img(src="@/assets/template/falso-verdadero.svg", alt="Texto que describa la imagen")
+            img(src="@/assets/template/Seleccion_Multiple.svg", alt="")
       .col-12.col-md-8.col-lg-9
-        .titulo-segundo
-          h2 Nombre de la actividad
-        p.mb-4 #[b Objetivo] 
+        .titulo-segundo.color-acento-contenido
+          h2 Procedimientos del primer responsable en los accidentes de tránsito
+        p.mb-4 Afianzar los conocimientos del aprendiz sobre tratamiento del lugar de los hechos en accidentes de tránsito, con el fin de realizar una correcta gestión en caso de un accidente de tránsito.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Tipo de actividad
+              p.fw-bold.mb-0 Respuesta multiple
             .col-auto
-              a.boton.boton--b(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
+              a.boton.boton--b(:href="obtenerLink('/actividades/index.html')" target="_blank")
                 span Realizar
                 i.fas.fa-puzzle-piece
                 
