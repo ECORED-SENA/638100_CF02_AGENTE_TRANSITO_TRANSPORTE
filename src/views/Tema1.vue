@@ -147,7 +147,7 @@
         img(src='@/assets/curso/temas/t1/img3.png', alt='')
 
     .row.justify-content-start.mb-3
-      .col-auto(data-aos="flip-down")
+      .col-auto(data-aos="fade")
         .list
           .list__item
             .list__item__icon
@@ -170,7 +170,7 @@
           p.mb-0(numero="6" titulo="Graficación de tomas de medidas") Se debe graficar y tomar las medidas de la vía en las áreas implicadas, tales como: andenes, aceras o bermas, cunetas, calzadas, separadores, bahías, carriles, señalización horizontal, marcas viales de la calzada, semáforos, postes, vehículos estacionados, árboles, estructuras que tengan incidencia en el accidente, ya sea por obstrucción de la vía o por obstrucción del campo de visión como casetas, tarimas, vallas publicitarias y demás.   
 
     .row.justify-content-start.mb-3
-      .col-auto(data-aos="flip-down")
+      .col-auto(data-aos="fade")
         .list
           .list__item
             .list__item__icon
@@ -232,7 +232,7 @@
           p La medida se registra en metros y centímetros en sus respectivas casillas, además se debe indicar qué tipo de huella es (de frenado, de derrape, de arrastre o de trayectoria).      
 
     .row.justify-content-start.mb-3
-      .col-auto(data-aos="flip-down")
+      .col-auto(data-aos="fade")
         .list
           .list__item
             .list__item__icon
@@ -278,7 +278,7 @@
         img(src='@/assets/curso/temas/t1/fig3.png', alt='Imagen creada que ilustra el croquis de un accidente y al lado del mismo, una tabla de medidas con datos propios del accidente reportado.')  
 
     .row.justify-content-start.mb-3
-      .col-auto(data-aos="flip-down")
+      .col-auto(data-aos="fade")
         .list
           .list__item
             .list__item__icon
@@ -322,7 +322,7 @@
     h4(data-aos="fade") Elementos básicos del fotógrafo
     p(data-aos="fade").mb-4 Se trata de los aspectos, criterios y elementos físicos que enriquecen y tecnifican la labor del fotógrafo. Los mismos, se muestran en la siguiente figura.
     .fondo2-t1
-      .titulo-sexto.color-acento-contenido(data-aos="flip-down")
+      .titulo-sexto.color-acento-contenido(data-aos="fade")
         h5 Figura 4.
         span Elementos básicos del fotógrafo       
       .row.justify-content-center.align-items-center.fondo-2.mb-4
@@ -416,7 +416,7 @@
 
         p(data-aos="fade-down").mb-0 Las acciones fundamentales que se deben realizar minutos posteriores al accidente de tránsito son:             
       .col-lg-auto.my-3.order-lg-2
-        img(data-aos="zoom-in")(src='@/assets/curso/temas/t1/ico11.svg', alt='')                                                                
+        img(data-aos="fade")(src='@/assets/curso/temas/t1/ico11.svg', alt='')                                                                
     h4.t-gold.text-center.mb-4 Atención a las víctimas en el accidente de tránsito
 
     .row
@@ -484,7 +484,7 @@
 
     .fondo4-t1
       .row.justify-content-start.mb-3
-        .col-auto(data-aos="flip-down")
+        .col-auto(data-aos="fade")
           .list
             .list__item
               .list__item__icon
@@ -531,7 +531,7 @@
                   td.text-start Conservando su eje, rotación a la derecha o la izquierda, adelante o atrás
 
       .row.justify-content-start.mb-3
-        .col-auto(data-aos="flip-down")
+        .col-auto(data-aos="fade")
           .list
             .list__item
               .list__item__icon
@@ -701,7 +701,7 @@
                 p.mb-0 Radicación y entrega de caso a la autoridad competente.    
 
     .row.justify-content-start.mb-3
-      .col-auto(data-aos="flip-down")
+      .col-auto(data-aos="fade")
         .list
           .list__item
             .list__item__icon
@@ -735,7 +735,7 @@
 
       .row.justify-content-center.align-items-center.bg8.mb-5 
         .col-lg-4.p-0.up
-          img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/t1/img15.png', alt='')               
+          img.img-a.img-t(data-aos="fade")(src='@/assets/curso/temas/t1/img15.png', alt='')               
         .col-lg-8.my-3.up.p-0
           .p-4
             p(data-aos="fade-down") Podría definirse como una técnica investigativa que consiste en una serie de preguntas efectuadas a las distintas personas que tienen conocimiento o pueden brindar antecedentes acerca de un hecho que se investiga, fundamentalmente con el objeto de obtener información que conduzca al esclarecimiento del delito que se investiga, reunir evidencia y poder llegar al o a los responsables del crimen. 
@@ -743,7 +743,7 @@
             p(data-aos="fade-down").mb-0 La entrevista forense cumple un importante papel cuando se trata de tomar decisiones en “(…) la administración de justicia porque significa conocer la información que posee el entrevistado acerca de lo que vio, lo que sintió, lo que escuchó, etc., en relación con el hecho investigado” (Farias, 2009).
         
       .row.justify-content-start.mb-3
-        .col-auto(data-aos="flip-down")
+        .col-auto(data-aos="fade")
           .list
             .list__item
               .list__item__icon
