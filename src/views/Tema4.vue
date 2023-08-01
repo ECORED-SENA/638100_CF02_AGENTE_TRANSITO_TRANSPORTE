@@ -123,28 +123,28 @@
           .col-md-12.col-lg-8(data-aos="fade-down")
             PasosA.color-secundario.mb-5(tipo="n")
               .row
-                .col-md-10.mb-4.mb-md-0
+                .col-lg-10.mb-4.mb-md-0.order-2.order-lg-1
                   h4 Actividad 1 - Recepción del caso
                   p Objetivos, responsable, condiciones, descripción: saludar, presentarse informando nombre y cargo, y suministrar a la persona por examinar información básica de orientación.
-                .col-md-2.col-5
+                .col-lg-2.col-5.col-md-3.order-1.order-lg-2.mb-4.mb-lg-0
                   img(src='@/assets/curso/temas/t4/ico1.svg', alt='')
               .row
-                .col-md-2.mb-4.mb-md-0.col-5
+                .col-lg-2.mb-4.mb-lg-0.col-5.col-md-3
                   img(src='@/assets/curso/temas/t4/ico2.svg', alt='')
-                .col-md-10
+                .col-lg-10
                   h4 Actividad 2 - Examen médico forense
                   p Anamnesis es el instrumento de evaluación que permite, a través de una interacción mutuamente participativa entre el perito y el examinador, obtener una información útil que sirva para la posterior generación del informe médico legal de embriaguez. Relato de los hechos, antecedentes patológicos, psiquiátricos, farmacológicos, toxicológicos.
                   p Examen clínico presentación, porte y actitud, conciencia, orientación, signos vitales, aliento y olores particulares, piel y faneras, congestión conjuntival, pupilas y convergencia ocular, hidratación de mucosas, conducta motora, atención, memoria, afecto, lenguaje, pensamiento, sensopercepción, inteligencia, juicio, introspección, nistagmus, coordinación y equilibrio, pruebas para evaluación de la marcha, exámenes complementarios, toma de muestras.
               .row
-                .col-md-10.mb-4.mb-md-0
+                .col-lg-10.mb-4.mb-md-0.order-2.order-lg-1
                   h4 Actividad  3 - Análisis, interpretación y conclusiones
                   p Su diagnóstico se fundamenta en hallazgos clínicos que pueden ser detectados por el (la) médico(a) en el momento del examen y las posibles conclusiones serán embriaguez negativa, embriaguez alcohólica positiva, embriaguez positiva de etiología por establecer.
-                .col-md-2.col-5
+                .col-lg-2.col-5.col-md-3.order-1.order-lg-2.mb-4.mb-lg-0
                   img(src='@/assets/curso/temas/t4/ico3.svg', alt='')
               .row
-                .col-md-2.mb-4.mb-md-0.col-5
+                .col-lg-2.mb-4.mb-lg-0.col-5.col-md-3
                   img(src='@/assets/curso/temas/t4/ico4.svg', alt='')
-                .col-md-10
+                .col-lg-10
                   h4 Actividad 4 - Pruebas paraclínicas complementarias
                   p Se define el tipo de prueba que se va a realizar y las muestras por tomar, con base en la información integrada, obtenida a partir de los documentos enviados por la autoridad, la anamnesis realizada al examinado(a) y el examen clínico.                
 

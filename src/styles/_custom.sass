@@ -26,6 +26,10 @@
   100%
     transform: translateY(0px)
 
+@media (max-width: $bp-max-xl)  
+  .banner-principal .tarjeta
+    background-image: url('../assets/curso/portada/fondo-banner-resonsive2.png') !important    
+    background-position: top left
 .banner-interno__fondo
   background-image: url('../assets/curso/temas/mini-portada.png') !important
 
@@ -131,6 +135,7 @@
   @media screen and (max-width: 992px)
     background-size: cover
     margin-inline: -1.4rem    
+    background: none !important
 .fondo-t3
   background: url('../assets/curso/temas/t3/fondo3.png')
   background-position: center
@@ -149,6 +154,7 @@
   @media screen and (max-width: 992px)
     background-size: cover
     margin-inline: -1.4rem
+    background: #f6f6f6 !important
 .fondo2-t4
   background: url('../assets/curso/temas/t4/fondo2.png')
   background-position: center bottom
@@ -284,7 +290,6 @@
       img 
         width: 30px
         vertical-align: middle
-        
   &__txt 
     p:first-child,
     h4:first-child 
@@ -299,61 +304,10 @@
 .top-ico
   border-top: 7px solid #FAF8F3   
 
-.linea-tiempo-d
-  &__item
-    &--selected
-      .linea-tiempo-d
-        &__item
-          &__content
-            background-color: #DEE9F0 !important
-            &__title
-              font-weight: $base-bold-font-weight
-          &__number
-            font-weight: $base-bold-font-weight
-    &__col-number
-      display: flex
-      flex-direction: column
-
-    &__dots
-      flex: 1
-      display: flex
-      justify-content: center
-      padding: 5px 0
-      &:after
-        content: ''
-        display: block
-        width: 0
-        height: 100%
-        border-left: 5px dotted $color-sistema-e
-    &__number
-      display: flex
-      align-items: center
-      justify-content: center
-      min-width: 40px
-      height: 40px
-      cursor: pointer
-      transition: background-color .3s ease-in-out, color .3s ease-in-out
-    &__content
-      background-color: #DEE9F0 !important     
-      &__title
-        display: flex
-        align-items: center
-        height: 40px
-        cursor: pointer
-        &:hover
-          font-weight: $base-bold-font-weight
-      &__slot
-        overflow: hidden
-        transition: height .5s ease-in-out
-  .tarjeta
-    border-radius: 5px
 .linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
-  background-color: #AECADC !important
-  color: #12263F
-  
-.linea-tiempo-d__item__number
-  background-color: #AECADC !important
-
+  background-color: #DEE9F0
+.linea-tiempo-d .linea-tiempo-d__item--selected .tarjeta
+  background: #DEE9F0
 @media (max-width: 412px)
   .linea-tiempo-d__item__content__title 
     height: 85px !important      
@@ -361,36 +315,27 @@
 .fondo-1    
   background-color: #FDF4DF
   border-radius: 15px
-
 .fondo-2  
   background-image: url(../assets/curso/temas/t1/fondo3.png)
   background-repeat: no-repeat
   background-size: cover
   background-position: center     
-
 .title-1
   background-color: #FBF0D6  
-
 .up
   z-index: 3 !important  
-
 .slyder-f__btn
   color: #D40A32 !important   
-
 .box-radius
   border-radius: 15px  
-
 .bgw
   background-color: white
-
 .table-w
   width:270px !important          
-
 .bgt1
   background-color: #2B2B2D
   color: white !important      
-
-.tarjeta--gris    
+.tarjeta--gris2
   background-image: url(../assets/curso/temas/t1/fondo-pasos.png)
   background-repeat: no-repeat
   background-size: cover
@@ -400,16 +345,17 @@
   background-color: #294550 
 .linea-tiempo-c__header__item__dot
   border: 3px solid #294550   
-
 .bgn
   background-color: #FABF40 
   border-radius: 10px
-
 .bgcard
   background-color: #F9E2A9  
-
 .ts
   *
     color: #12263F !important      
 .bg8
   background-color: #DEE9F0    
+
+
+.pasos-a__item p, .pasos-a__item h4
+  text-align: left

@@ -36,12 +36,12 @@
     .titulo-segundo.color-acento-contenido(data-aos="fade")
       h2 3.1 Elementos materiales de prueba y evidencia física
 
-    .row 
-      .col-md-7.mb-4(data-aos="fade-right")
+    .row.justify-content-center
+      .col-lg-7.mb-4(data-aos="fade-right")
         .bg-blue.p-4.mb-4
           p.mb-0 Según la Defensoría del Pueblo los elementos materiales probatorios son los productos o instrumentos del delito que pueden ser presentados en el juicio oral. Toda cosa tangible con la que se ha cometido el hecho es resultado de este y que contribuye a obtener información para el esclarecimiento del mismo (Defensoría del Pueblo, 2014).
         p Por su parte, Bedoya (2008) los define como el elemento material probatorio o evidencia física, entonces, será toda cosa u objeto que directa o indirectamente pueda aportar información acerca de uno o varios aspectos estructurales del delito o de la identidad del acusado, es decir, la cosa u objeto que por sí solo tenga la cualidad demostrativa o probatoria de las circunstancias en las que ocurrió un delito (Sierra, 2008). 
-      .col-md-5.mb-4(data-aos="fade-left")
+      .col-lg-5.col-md-8.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/temas/t3/img2.png', alt='')
 
     h5.t-gold(data-aos="fade") El Código de Procedimiento Penal Ley 906 de 2004 en su Artículo 275 establece los siguientes elementos materiales probatorios así:  
@@ -50,9 +50,9 @@
       .col-lg-12.col-12.px-lg-5.px-4
         .row.justify-content-center.align-items-center
 
-          .col-md-6.col-lg-4.mb-4.mb-md-0(data-aos="fade-right")
+          .col-md-6.col-lg-4.mb-4.mb-md-0.d-lg-flex.d-none(data-aos="fade-right")
             img(src='@/assets/curso/temas/t3/img3.png', alt='')
-          .col-md-11.col-lg-8.mb-4.mb-md-0(data-aos="fade-left")
+          .col-md-11.col-lg-8.mb-4.mb-lg-0(data-aos="fade-left")
             .tarjeta.bg-white.box-shadow.p-4
               SlyderA(tipo="b")
                 .row.justify-content-center.p-md-4.py-md-3
@@ -127,8 +127,8 @@
 
     figure(data-aos="fade-down")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video.  
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/DenZUtZg86g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Requisitos de la cadena de custodia 
 
     
     Separador 
@@ -144,16 +144,16 @@
         .row.justify-content-center.align-items-center
           
           .row
-            .col-lg-6.col-md-12.mb-4(data-aos="fade-right")
+            .col-lg-6.col-md-12.mb-4.order-2.order-lg-1(data-aos="fade-right")
               .bg-yellow2.p-4.mb-4.h-100.d-flex.align-items-center
                 p.mb-0 Descargue el archivo que se propone enseguida; este contiene las indicaciones para el diligenciamiento del formato de Actuación del primer responsable. Preste atención a las partes que lo conforman, sus campos de diligenciamiento y algunos criterios para su uso.
-            .col-lg-6.col-md-12.mb-4(data-aos="fade-left")
+            .col-lg-6.col-md-12.mb-4.order-1.order-lg-2(data-aos="fade-left")
               img(src='@/assets/curso/temas/t3/img5.png', alt='')
 
-          .col-md-4(data-aos="fade-down")
+          .col-auto(data-aos="fade-down")
             a.anexo.mb-4(:href="obtenerLink('/downloads/Actuacion_del_primer_responsable.pdf')" target="_blank")
               .anexo__icono
-                img(src="@/assets/curso/temas/t3/pdf.svg")
+                img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
                 p.mb-0 #[b Anexo.] Actuación del primer responsable
 
@@ -163,14 +163,23 @@
     .titulo-segundo.color-acento-contenido(data-aos="fade")
       h2 3.4 Formato de registro de la cadena de custodia 
     
-    p.mb-4(data-aos="fade") Es el documento físico donde se registran todas las acciones y los responsables que tienen relación con los elementos materiales de prueba o evidencia física, y el que data de continuidad, relativamente es un documento sencillo en su diligenciamiento. 
+    .row.d-lg-flex.d-none
+      p.mb-4(data-aos="fade") Es el documento físico donde se registran todas las acciones y los responsables que tienen relación con los elementos materiales de prueba o evidencia física, y el que data de continuidad, relativamente es un documento sencillo en su diligenciamiento. 
+      .row
+        .col-lg-6.col-md-12.mb-4(data-aos="fade-right")
+          .bg-blue.p-4.py-lg-2.mb-4.h-100.d-flex.align-items-center
+            p.mb-0 Como se verá a continuación el formato se compone de dos partes, la primera es donde se registra la persona o las personas que tratan los EMP y EF en caso de ser diferente quien haya, recolecta o embala el elemento material de prueba; la segunda parte es el registro de los traslados de esos EMP y EF con las personas que participan en esos traslados y el motivo de la diligencia, como se muestra a continuación: 
+        .col-lg-6.col-md-12.mb-4(data-aos="fade-left")
+          img(src='@/assets/curso/temas/t3/img6.png', alt='')
 
-    .row
+    .row.d-block.d-lg-none
       .col-lg-6.col-md-12.mb-4(data-aos="fade-right")
+        img(src='@/assets/curso/temas/t3/img6.png', alt='')
+      .col-lg-6.col-md-12.mb-4(data-aos="fade-left")
+        p.mb-4(data-aos="fade") Es el documento físico donde se registran todas las acciones y los responsables que tienen relación con los elementos materiales de prueba o evidencia física, y el que data de continuidad, relativamente es un documento sencillo en su diligenciamiento. 
         .bg-blue.p-4.py-lg-2.mb-4.h-100.d-flex.align-items-center
           p.mb-0 Como se verá a continuación el formato se compone de dos partes, la primera es donde se registra la persona o las personas que tratan los EMP y EF en caso de ser diferente quien haya, recolecta o embala el elemento material de prueba; la segunda parte es el registro de los traslados de esos EMP y EF con las personas que participan en esos traslados y el motivo de la diligencia, como se muestra a continuación: 
-      .col-lg-6.col-md-12.mb-4(data-aos="fade-left")
-        img(src='@/assets/curso/temas/t3/img6.png', alt='')
+        
 
 
     .row.justify-content-center.mb-4

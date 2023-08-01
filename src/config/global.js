@@ -64,7 +64,7 @@ export default {
           },
           {
             numero: '1.4',
-            titulo: 'Fijación fotográfica en los accidentes de tránsito',
+            titulo: 'Atención a las víctimas',
             hash: 't_1_4',
           },
           {
@@ -140,7 +140,7 @@ export default {
           },
           {
             numero: '4.2',
-            titulo: 'Técnicas de uso en equipos para pruebas de alcohol',
+            titulo: 'Técnicas de uso en equipos para pruebas de drogas',
             hash: 't_4_2',
           },
           {
@@ -276,23 +276,19 @@ export default {
   referencias: [
     {
       referencia:
-        'Álzate, C. y Buitrago, J. (2001). Manual de medicina legal tanatológica. Universidad de Manizales.',
+        'Álzate, C. y Buitrago, J. (2001). <em>Manual de medicina legal tanatológica</em>. Universidad de Manizales.',
       link:
         'https://ridum.umanizales.edu.co/xmlui/bitstream/handle/20.500.12746/387/Microsoft%20Word%20-%2140_Alzate_Ramirez_Clemencia_2001.pdf?sequence=1&isAllowed=y',
     },
     {
-      referencia: '',
-      link: '',
-    },
-    {
       referencia:
-        'Corte Constitucional. (1991). Constitución Política de Colombia. Corte Constitucional. ',
+        'Corte Constitucional. (1991). <em>Constitución Política de Colombia</em>. Corte Constitucional. ',
       link:
         'https://www.corteconstitucional.gov.co/inicio/Constitucion%20politica%20de%20Colombia%20-%202015.pdf',
     },
     {
       referencia:
-        'Fiscalía General de la Nación. 2018. Manual del sistema de cadena de custodia. Fiscalía General de la Nación. ',
+        'Fiscalía General de la Nación. 2018. <em>Manual del sistema de cadena de custodia</em>. Fiscalía General de la Nación. ',
       link:
         'https://www.fiscalia.gov.co/colombia/wp-content/uploads/MANUAL-DEL-SISTEMA-DE-CADENA-DE-CUSTODIA.pdf',
     },
@@ -310,7 +306,7 @@ export default {
     },
     {
       referencia:
-        'Ramos, H. y Quiroga, L. (2017). Investigación de accidentes de tránsito en Colombia. Policía Nacional. ',
+        'Ramos, H. y Quiroga, L. (2017). <em>Investigación de accidentes de tránsito en Colombia</em>. Policía Nacional. ',
       link:
         'https://www.policia.gov.co/contenido/investigacion-accidentes-transito-colombia',
     },
@@ -321,13 +317,13 @@ export default {
     },
     {
       referencia:
-        'Rodríguez, F. (2013). Topografía aplicada a la investigación de accidentes de tránsito. Universidad Francisco José de Caldas. ',
+        'Rodríguez, F. (2013). <em>Topografía aplicada a la investigación de accidentes de tránsito</em>. Universidad Francisco José de Caldas. ',
       link:
         'https://revistas.udistrital.edu.co/index.php/bsa/article/view/12855',
     },
     {
       referencia:
-        'Sierra, L. (2008). La prueba en el proceso penal colombiano. Fiscalía General de la Nación.',
+        'Sierra, L. (2008). <em>La prueba en el proceso penal colombiano</em>. Fiscalía General de la Nación.',
       link:
         'https://www.fiscalia.gov.co/colombia/wp-content/uploads/2012/01/LaPruebaenelProcesoPenalColombiano.pdf',
     },
@@ -399,13 +395,13 @@ export default {
         },
         {
           nombre: 'Yerson Fabián Zarate Saavedra',
-          cargo: 'Diseñador web',
+          cargo: 'Diseñador de Contenidos Digitales',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Andrea Paola Botello De la Rosa',
-          cargo: 'Desarrollador Fullstack',
+          cargo: 'Desarrollador Full-stack',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },

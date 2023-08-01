@@ -11,9 +11,9 @@
       .col-lg-12.col-12.px-lg-5.px-4
         .row.justify-content-center.align-items-center
 
-          .col-md-3.col-lg-3.mb-4.mb-md-0(data-aos="fade-right")
+          .col-md-3.col-lg-3.mb-4.mb-md-0.d-lg-flex.d-none(data-aos="fade-right")
             img(src='@/assets/curso/temas/t1/img0.png', alt='')
-          .col-md-9.col-lg-9.mb-4.mb-md-0(data-aos="fade-left")
+          .col-md-12.col-lg-9.mb-4.mb-md-0(data-aos="fade-left")
             .cajon.color-secundario.p-4.mb-4
               p.mb-0 Para los accidentes de tránsito el lugar de los hechos es cualquier espacio en el que se ha producido un siniestro vial, incluyendo las zonas desde la percepción del riesgo en la escena preliminar hasta la escena de posiciones finales y sus alrededores donde se hallen elementos materiales de prueba o evidencias físicas, que generalmente son vías públicas, privadas abiertas al público o privadas donde internamente circulen vehículos.
             h5.t-gold Cuando se trata de accidentes viales los delitos que se pueden presentar son: 
@@ -23,19 +23,19 @@
                   .img-hover
                     img.mb-3.img-hover-1(src='@/assets/curso/temas/t1/ico1.svg', alt='' style="width: 77px;")
                     img.mb-3.img-hover-2(src='@/assets/curso/temas/t1/ico2.svg', alt='' style="width: 77px;")
-                  p Daño en bien ajeno, establecido en el Artículo 265 del Código Penal Colombiano.
+                  p #[b Daño en bien ajeno], establecido en el Artículo 265 del Código Penal Colombiano.
               .col-md-6.col-lg-4.mb-4
                 .tarjeta.h-100.p-4.fondo-hover.hover-ico
                   .img-hover
                     img.mb-3.img-hover-1(src='@/assets/curso/temas/t1/ico1.svg', alt='' style="width: 77px;")
                     img.mb-3.img-hover-2(src='@/assets/curso/temas/t1/ico2.svg', alt='' style="width: 77px;")
-                  p Lesiones culposas, establecido en el Artículo 120 del Código Penal Colombiano.
+                  p #[b Lesiones culposas], establecido en el Artículo 120 del Código Penal Colombiano.
               .col-md-6.col-lg-4.mb-4
                 .tarjeta.h-100.p-4.fondo-hover.hover-ico
                   .img-hover
                     img.mb-3.img-hover-1(src='@/assets/curso/temas/t1/ico1.svg', alt='' style="width: 77px;")
                     img.mb-3.img-hover-2(src='@/assets/curso/temas/t1/ico2.svg', alt='' style="width: 77px;")
-                  p Homicidio culposo, establecido en el Artículo 109 del Código Penal Colombiano.
+                  p #[b Homicidio culposo], establecido en el Artículo 109 del Código Penal Colombiano.
 
 
 
@@ -102,13 +102,13 @@
       h2 1.2 Técnicas de fijación topográfica en accidentes de tránsito
 
     .row 
-      .col-md-4.mb-4(data-aos="fade-right")
+      .col-lg-4.mb-4.d-lg-flex.d-none(data-aos="fade-right")
         img(src='@/assets/curso/temas/t1/img2.png', alt='')
-      .col-md-8.mb-4(data-aos="fade-left")
+      .col-lg-8.mb-4(data-aos="fade-left")
         .bg-gray3.p-4.mb-4.d-flex.align-items-center
           .row.align-items-center
-            .col-md-2
-              img.px-md-2(src='@/assets/curso/temas/t1/ico7.svg', alt='')
+            .col-md-2.col-4.mb-3.mb-lg-0
+              img.px-lg-2(src='@/assets/curso/temas/t1/ico7.svg', alt='')
             .col-md-10
               p.mb-0 Se registra general y particularmente el lugar (condiciones geométricas y estructurales del lugar), junto con las evidencias contenidas en el mismo en pro de que perduren en el tiempo. Su localización sobre la superficie terrestre, la dirección, el sentido y su trayectoria. Elementos fundamentales para las diligencias de la investigación científica o la reconstrucción. (Rodríguez, 2013).
         h5.t-gold Los elementos principales de las técnicas de fijación topográfica son:
@@ -143,7 +143,7 @@
                 li 
                   i.fas.fa-chevron-right
                   | Realizadas las demás diligencias de los actos urgentes se permite el flujo vehicular. 
-      .col-lg-4.col-md-6.mb-4(data-aos="fade-left")
+      .col-lg-4.col-md-6.mb-4.d-lg-flex.d-none(data-aos="fade-left")
         img(src='@/assets/curso/temas/t1/img3.png', alt='')
 
     .row.justify-content-start.mb-3
@@ -158,9 +158,9 @@
     p(data-aos="fade").mb-4 El topógrafo judicial o el funcionario encargado de la elaboración del croquis o bosquejo topográfico deberá plasmar el borrador en el campo 17 del IPAT con los siguientes criterios:  
 
     .row.justify-content-center 
-      .col-lg-3.col-md-5.mb-4(data-aos="fade-right")
+      .col-lg-3.col-md-5.mb-4.d-lg-flex.d-none(data-aos="fade-right")
         img(src='@/assets/curso/temas/t1/img4.png', alt='')
-      .col-lg-5.col-md-7.mb-4(data-aos="fade-left") 
+      .col-lg-5.col-md-10.mb-4(data-aos="fade-left") 
         LineaTiempoD.color-primario
           p.mb-0(numero="1" titulo="Ubicación del norte magnético") En la rosa de los vientos ubicada en la parte superior izquierda.      
           p.mb-0(numero="2" titulo="Ubicación") Ubicación correspondiente al posible punto de impacto o área de impacto, la cual no debe superar una dimensión de un metro cuadrado.       
@@ -188,9 +188,9 @@
         img(src='@/assets/curso/temas/t1/fig.png', alt='Gráfica intencional que ilustra una vía donde sucedió un accidente. Detalla anchos de calzada del tramo, longitud de los andenes, medidas de la bahía existente en el sitio, ubicación del vehículo accidentado y distancias varias.')
 
     .row.justify-content-center.align-items-end.fondo-1.mb-4
-      .col-lg-3.col-md-5.p-0(data-aos="fade-right")
+      .col-lg-3.col-md-5.p-0.d-lg-flex.d-none(data-aos="fade-right")
         img(src='@/assets/curso/temas/t1/img5.png', alt='')
-      .col-lg-9.col-md-7.p-4(data-aos="fade-left") 
+      .col-lg-9.col-md-12.p-4(data-aos="fade-left") 
         ul.lista-ul.fa-ul
           li 
             i.fas.fa-chevron-right
@@ -292,8 +292,9 @@
       .col-lg-12(data-aos="fade-left")     
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)  
-        figcaption Video. 
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/ihxzVHURek4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)  
+        figcaption Video. Método de triangulación en la fijación de los accidentes de tránsito
+
 
     Separador 
     
@@ -326,9 +327,9 @@
         h5 Figura 4.
         span Elementos básicos del fotógrafo       
       .row.justify-content-center.align-items-center.fondo-2.mb-4
-        .col-lg-3.col-md-11.my-3(data-aos="fade-right")
+        .col-lg-3.col-md-11.my-3.mb-lg-0.d-lg-flex.d-none(data-aos="fade-right")
           img(src='@/assets/curso/temas/t1/img8.png', alt='')
-        .col-lg-8.col-md-11.my-3(data-aos="fade-left")  
+        .col-lg-8.col-md-12.my-3(data-aos="fade-left")  
           img(src='@/assets/curso/temas/t1/infog2.svg', alt='')
 
       p(data-aos="fade") La actividad del fotógrafo judicial o del agente de tránsito encargado de la fijación fotográfica debe ser coordinada con el topógrafo, definiendo cuál de los dos procedimientos debe realizarse primero. Revisar detalles del lugar de los hechos que pueden escapar al topógrafo, tanto del lugar de los hechos como de los elementos materiales probatorios.
@@ -379,9 +380,9 @@
       .col-lg-12.col-12.px-lg-5.px-4.up
         .row.justify-content-center.align-items-center
 
-          .col-md-6.col-lg-4.mb-4.mb-md-0.up(data-aos="fade-right")
+          .col-md-6.col-lg-4.mb-4.mb-md-0.up.d-lg-flex.d-none(data-aos="fade-right")
             img(src='@/assets/curso/temas/t1/img10.png', alt='')
-          .col-md-11.col-lg-8.mb-4.mb-md-0.up(data-aos="fade-left")
+          .col-md-8.col-lg-8.mb-4.mb-md-0.up(data-aos="fade-left")
             SlyderF.text-center.pb-4(columnas="col-lg-6")(data-aos="fade-right")
               .tarjeta
                 .row.justify-content-center
@@ -411,11 +412,10 @@
       h2 1.4 Atención a las víctimas 
 
     .row.justify-content-center.align-items-center.mb-4
-      .col.my-3.order-1
+      .col-lg-10.col-12.col-md-9.my-3.order-1
         p(data-aos="fade-down") Los accidentes de tránsito dejan cada año cifras lamentables de personas lesionadas y fallecidas, muchas de ellas no reciben una atención oportuna y de acuerdo con los datos estadísticos de la Agencia Nacional de Seguridad Vial un número importante de personas fallecen en hospitales como consecuencia de las lesiones ocasionadas en los siniestros viales.
-
         p(data-aos="fade-down").mb-0 Las acciones fundamentales que se deben realizar minutos posteriores al accidente de tránsito son:             
-      .col-lg-auto.my-3.order-lg-2
+      .col-lg-2.col-5.col-md-3.my-3.order-lg-2
         img(data-aos="fade")(src='@/assets/curso/temas/t1/ico11.svg', alt='')                                                                
     h4.t-gold.text-center.mb-4 Atención a las víctimas en el accidente de tránsito
 
@@ -429,33 +429,31 @@
               p Seguro Obligatorio de Accidentes de Tránsito (SOAT).
               p Certificado de revisión técnico-mecánica y de gases.
               p Tener apuntado los teléfonos de las líneas de atención de emergencia, Dirección de Tránsito y Transporte #767 y línea de emergencia nacional 123. 
+          .row.justify-content-center(titulo="Durante")
+            .col-md-11.mb-4.mb-md-0
+              p Llamar inmediatamente a las autoridades que pueden ayudarle, primero a la línea de emergencias (123) y si es del caso, a la Policía de carreteras (#767) y a la aseguradora.
+              p Los heridos deben priorizarse de acuerdo con la gravedad de los hechos, no moverlos en lo posible a menos que haya una amenaza superior. 
+              p Se deben poner señales de advertencia a los demás usuarios de la vía y acordonar el lugar de los hechos.
+              p No se debe permitir que las víctimas sean manipuladas por personal no calificado y siempre solicitar la identificación. 
+              p Facilitar la comunicación de las víctimas con un familiar para que conozca la situación y brindar información sensata, sin generar pánico en las personas acudientes.
           .row.justify-content-center(titulo="Después")
             .col-md-11.mb-4.mb-md-0
               p Las personas que fueron víctimas deben recibir tres tipos de atención:
-
-              p #[b Pre- hospitalaria] en el lugar de los hechos.
-              p #[b Hospitalaria] que se brinda en las IPS, donde se requiere la atención médica, quirúrgica y psicológica.
-              p #[b Ambulatoria], aquí la víctima debe recibir la rehabilitación a través del Plan Individualizado de Tratamiento (PIT). 
-
+              ul.lista-ul.fa-ul.mb-0
+                li 
+                  i.fas.fa-chevron-right
+                  span #[b Pre- hospitalaria] en el lugar de los hechos.
+                li 
+                  i.fas.fa-chevron-right
+                  span #[b Hospitalaria] que se brinda en las IPS, donde se requiere la atención médica, quirúrgica y psicológica.
+                li 
+                  i.fas.fa-chevron-right
+                  span #[b Ambulatoria], aquí la víctima debe recibir la rehabilitación a través del Plan Individualizado de Tratamiento (PIT). 
               p Las víctimas tienen derecho a los amparos que cubre el SOAT y FOSYGA, así: 
-
               p #[b a)] Los gastos médicos, hospitalarios, cirugías y medicamentos hasta 800 SMLDV. 
               p #[b b)] Por la incapacidad permanente de hasta 180 SMLDV.
               p #[b c)] En casos de muerte la familia puede reclamar hasta 750 SMLDV para gastos funerarios.
-          .row.justify-content-center(titulo="Durante")
-            .col-md-11.mb-4.mb-md-0
-              p Llamar inmediatamente a las autoridades que pueden ayudarle, primero a la línea de 
-              p emergencias (123) y si es del caso, a la Policía de carreteras (#767) y a la aseguradora.
-
-              p Los heridos deben priorizarse de acuerdo con la gravedad de los hechos, no moverlos en lo posible a menos que haya una amenaza superior. 
-
-              p Se deben poner señales de advertencia a los demás usuarios de la vía y acordonar el lugar de los hechos.
-
-              p No se debe permitir que las víctimas sean manipuladas por personal no calificado y siempre solicitar la identificación. 
-
-              p Facilitar la comunicación de las víctimas con un familiar para que conozca la situación y brindar información sensata, sin generar pánico en las personas acudientes.
-  
-      .col-lg-4.col-md-6.mb-4(data-aos="fade-left")
+      .col-lg-4.col-md-6.d-lg-flex.d-none.mb-lg-4(data-aos="fade-left")
         img(src='@/assets/curso/temas/t1/img11.png', alt='')   
 
     Separador 
@@ -490,7 +488,7 @@
               .list__item__icon
                 img(src='@/assets/curso/temas/t1/subt.svg', alt='')
             .list__txt.box-ico.top-ico.p-0.px-4
-              h4.mb-0 Servicio público de transporte
+              h4.mb-0 Posiciones del cadáver
 
       p(data-aos="fade-down").mb-5 Debido a que el transporte es un servicio esencial en las actividades económicas de un país, se requiere que este sea a través de empresas legalmente constituidas y habilitada, en la tabla a continuación se presenta un panorama general de la normatividad en este sentido:       
 
@@ -584,7 +582,7 @@
       h2 1.6 Recolección de la información 
 
     p(data-aos="fade") Se compone de varios pasos, a saber:
-    .tarjeta.tarjeta--gris.p-4.pb-0.mb-5
+    .tarjeta.tarjeta--gris2.p-4.pb-0.mb-5
       LineaTiempoC.color-acento-botones
         .row.justify-content-center.align-items-center(titulo="Paso1")
           .col-lg-7.col-md-12.my-3.order-1
@@ -603,7 +601,7 @@
                 li 
                   i.fas.fa-chevron-right
                   | Aplicar los protocolos estandarizados y documentados, de que trata el manual de cadena de custodia, el manual de policía judicial y el código de procedimiento penal.  
-          .col-lg-4.col-md-12.order-lg-2
+          .col-lg-4.col-md-6.col-8.order-lg-2
             img(src='@/assets/curso/temas/t1/linea1.svg', alt='')
         .row.justify-content-center.align-items-center(titulo="Paso2")
           .col-lg-7.col-md-12.my-3.order-1
@@ -622,7 +620,7 @@
                 li 
                   i.fas.fa-chevron-right
                   | Bases de datos, argumentos doctrinales y científicos que tienen respaldo y aceptación.  
-          .col-lg-4.col-md-12.order-lg-2
+          .col-lg-4.col-md-6.col-8.order-lg-2
             img(src='@/assets/curso/temas/t1/linea2.svg', alt='')
         .row.justify-content-center.align-items-center(titulo="Paso3")
           .col-lg-7.col-md-12.my-3.order-1
@@ -641,7 +639,7 @@
                 li 
                   i.fas.fa-chevron-right
                   | Se debe tener especial cuidado antes, durante y después de la recolección de la información, toda vez que no conserven las características esenciales para relacionarlas con los hechos y no sean aceptadas en el proceso. 
-          .col-lg-4.col-md-12.order-lg-2
+          .col-lg-4.col-md-6.col-8.order-lg-2
             img(src='@/assets/curso/temas/t1/linea3.svg', alt='')
         .row.justify-content-center.align-items-center(titulo="Paso4")
           .col-lg-7.col-md-12.my-3.order-1
@@ -657,15 +655,16 @@
                 li 
                   i.fas.fa-chevron-right
                   | Análisis coherente de la información recolectada para que el investigador o analista pueda establecer hipótesis y conjeturas objetivas.   
-          .col-lg-4.col-md-12.order-lg-2
+          .col-lg-4.col-md-6.col-8.order-lg-2
             img(src='@/assets/curso/temas/t1/linea4.svg', alt='')                                    
+    
     h4.t-gold.mb-4 A continuación, se ofrecen los pasos para recolección de información, en el proceso de reconstrucción de un accidente de tránsito:
 
     .row.fondo3-t1.align-items-center.pt-3.mb-4
       .col-lg-12.col-12.px-lg-5.px-4.up
         .row.justify-content-center.align-items-center
 
-          .col-md-6.col-lg-4.mb-4.mb-md-0.up(data-aos="fade-right")
+          .col-md-6.col-lg-4.mb-4.mb-md-0.d-lg-flex.d-none.up(data-aos="fade-right")
             img(src='@/assets/curso/temas/t1/img14.png', alt='')
           .col-md-11.col-lg-8.mb-4.mb-md-0.up(data-aos="fade-left")
             SlyderF.text-center.pb-4(columnas="col-lg-6")(data-aos="fade-right")
@@ -753,7 +752,7 @@
       p(data-aos="fade") Los accidentes de tránsito se presentan en entornos públicos y en su mayoría ocurren en perímetros urbanos, por ende, esto implica que muchas personas presencian el acto y existe una gran probabilidad de que sea captado en cámaras de video de vigilancia, por lo cual en los delitos inmersos dentro de los siniestros se tiene la posibilidad de recolectar gran información por parte de los testigos presenciales de los hechos y que van a ser de gran ayuda en todo el proceso investigativo para poder orientar las hipótesis con mayor precisión o de la manera más acertada posible.  
 
       .row.mb-4
-        .col-lg-8.mb-4(data-aos="fade-left")
+        .col-lg-8.mb-4(data-aos="fade-right")
           .row.mb-3
             .col-md-3.mb-4.mb-md-0
               img(src='@/assets/curso/temas/t1/ico16.svg', alt='')
@@ -763,7 +762,7 @@
           p(data-aos="fade") Normalmente las personas son renuentes a cooperar en una entrevista porque se sienten comprometidas e involucradas en el problema judicial, además de la responsabilidad de ratificar sus versiones de lo observado ante las autoridades judiciales hace que se sientan intimidadas y prefieren no participar, negarse a responder interrogantes o simplemente indicar que no recuerdan nada de lo sucedido. 
 
           p(data-aos="fade") Para poder solucionar este inconveniente y romper esas barreras de rechazo de las personas es necesario que el investigador entable una conversación previa, saliendo de los esquemas formales para poder explicarle a las personas cuál es la dinámica de la entrevista y sus verdaderas connotaciones para que el testigo se sienta con la seguridad de poder rendir una versión real de los hechos. Una vez ganada la confianza y permitida la entrevista se debe seguir este protocolo:          
-        .col-lg-4.mb-4(data-aos="fade-right")
+        .col-lg-4.mb-4(data-aos="fade-left")
           img(src='@/assets/curso/temas/t1/img16.png', alt='')
            
       p(data-aos="fade").mb-5 Para abordar a los testigos, #[b.t-gold es importante conocer todos los datos que sea permitido preguntar para identificar y caracterizar al testigo. Así mismo, hay que darles un orden lógico a los hechos y realizar preguntas que estén en esa secuencia. Se debe tener un cuestionario general para abordar al testigo y encaminarlo y, a medida que avanza la entrevista se incluirán nuevos interrogantes al cuestionario, de manera puntual en los aspectos que se quieran conocer sobre el accidente.] Cada pregunta arroja un dato, el cual debe tener un objetivo para la investigación, por ello cuando se aborda al testigo es importante guiarlo al propósito real.    

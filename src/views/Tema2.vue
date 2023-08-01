@@ -23,7 +23,7 @@
                     p.mb-0 En el accidente de tránsito el primer responsable deberá conservar las posiciones finales de los vehículos, los vestigios, el estado de las huellas, los cuerpos sin vida, entre otros, desarrollando los procedimientos establecidos en el manual del sistema de custodia y cadena de custodia de la Fiscalía General de la Nación. 
               
           .row.mb-4
-            .col-lg-4.mb-4(data-aos="fade-right")
+            .col-lg-4.mb-4.d-lg-flex.d-none(data-aos="fade-right")
               img(src='@/assets/curso/temas/t2/img2.png', alt='')
             .col-lg-8.mb-4(data-aos="fade-left")
               p 
@@ -64,12 +64,12 @@
                   tr
                     td.text-center 2
                     td Registrar la información en el sistema computarizado o en el medio establecido para esta actividad, con los datos requeridos por el mismo.
-                    td Primer responsable
+                    td Policía Nacional (CAD) <br> Líneas de emergencia nacional
                     td Reportes
                   tr
                     td.text-center 3
                     td Informar a la Policía Nacional de turno o a los organismos de atención a incidentes sobre el incidente reportado. 
-                    td Primer responsable
+                    td Policía Nacional (CAD) <br> Organismos de atención de incidentes.
                     td Reportes
                   tr
                     td.text-center 4
@@ -110,78 +110,79 @@
 
           p.mb-4(data-aos="fade") Ya en el lugar de los hechos, el primer responsable debe cerciorarse de las condiciones de seguridad y el estado de vulnerabilidad que representa estar sobre la vía, así: 
 
-          .col-md-8
+          .col-lg-8
             PasosA.color-secundario(tipo="n")
-              .row.align-items-center
-                .col-md-10.mb-4.mb-md-0
+              .row.align-items-center.justify-content-center
+                .col-md-10.mb-0.mb-md-0.order-2.order-lg-1
                   p Debe señalizar a través de elementos visuales, como una baliza, pero de no tenerla deberá poner su medio de transporte con las luces encendidas.
-                .col-md-2.col-5
+                .col-md-2.col-5.order-1.order-lg-2.mb-4.mb-md-0
                   img(src='@/assets/curso/temas/t2/paso1.svg', alt='')
-              .row.align-items-center
+              .row.align-items-center.justify-content-center
                 .col-md-2.mb-4.mb-md-0.col-5
                   img(src='@/assets/curso/temas/t2/paso2.svg', alt='')
                 .col-md-10
                   p Poner elementos que avisen a los otros conductores la detención en el lugar, sin que dichos elementos generen riesgo de accidentalidad.
-              .row.align-items-center
-                .col-md-10.mb-4.mb-md-0
+              .row.align-items-center.justify-content-center
+                .col-md-10.mb-0.mb-md-0.order-2.order-lg-1
                   p Debe realizar una observación primaria del lugar de los hechos, donde determina o dimensiona la magnitud del caso.
-                .col-md-2.col-5
+                .col-md-2.col-5.order-1.order-lg-2.mb-4.mb-md-0
                   img(src='@/assets/curso/temas/t2/paso3.svg', alt='')
-              .row.align-items-center
+              .row.align-items-center.justify-content-center
                 .col-md-2.mb-4.mb-md-0.col-5
                   img(src='@/assets/curso/temas/t2/paso4.svg', alt='')
                 .col-md-10
                   p Establecer el número de víctimas, sean lesionadas o fallecidas.
-              .row.align-items-center
-                .col-md-10.mb-4.mb-md-0
+              .row.align-items-center.justify-content-center
+                .col-md-10.mb-0.mb-md-0.order-2.order-lg-1
                   p La referenciación de los EMP y EF haciendo un barrido de toda la escena, enfatizando en la posición de los vehículos, ubicando las huellas de frenado, arrastre o trayectoria. 
-                .col-md-2.col-5
+                .col-md-2.col-5.order-1.order-lg-2.mb-4.mb-md-0
                   img(src='@/assets/curso/temas/t2/paso5.svg', alt='')
-              .row.align-items-center
+              .row.align-items-center.justify-content-center
                 .col-md-2.mb-4.mb-md-0.col-5
                   img(src='@/assets/curso/temas/t2/paso6.svg', alt='')
                 .col-md-10
                   p Asegurar de manera eficiente el lugar de los hechos, delimitando el área que debe acordonarse valiéndose de elementos apropiados de acuerdo con el tipo de lugar de los hechos.
-              .row.align-items-center
-                .col-md-10.mb-4.mb-md-0
+              .row.align-items-center.justify-content-center
+                .col-md-10.mb-0.mb-md-0.order-2.order-lg-1
                   p Aislar el área, para lo cual debe poner en consideración la posibilidad de dos cercos o anillos para que los funcionarios de policía judicial tengan la versatilidad de trabajar en el lugar de los hechos, sin interrumpir la escena o alterar los EMP y EF. 
-                .col-md-2.col-5
+                .col-md-2.col-5.order-1.order-lg-2.mb-4.mb-md-0
                   img(src='@/assets/curso/temas/t2/paso7.svg', alt='')
-              .row.align-items-center
+              .row.align-items-center.justify-content-center
                 .col-md-2.mb-4.mb-md-0.col-5
                   img(src='@/assets/curso/temas/t2/paso8.svg', alt='')
                 .col-md-10
                   p Las actividades de aseguramiento y protección al lugar de los hechos, deben considerarse los niveles de protección, incidencia y afectación.
-              .row.align-items-center
-                .col-md-10.mb-4.mb-md-0
+              .row.align-items-center.justify-content-center
+                .col-md-10.mb-0.mb-md-0.order-2.order-lg-1
                   p Los dos acordamientos que se deben realizar como mínimo en la escena del delito, estableciendo como primer nivel de “afectación” donde quedan todos los EMP y EF que se encuentran en relación con el accidente de tránsito. 
-                .col-md-2.col-5
+                .col-md-2.col-5.order-1.order-lg-2.mb-4.mb-md-0
                   img(src='@/assets/curso/temas/t2/paso9.svg', alt='')
-              .row.align-items-center
+              .row.align-items-center.justify-content-center
                 .col-md-2.mb-4.mb-md-0.col-5
                   img(src='@/assets/curso/temas/t2/paso10.svg', alt='')
                 .col-md-10
                   p Se dejan las huellas de frenado, arrastre o trayectoria y cualquier vestigio producto de los impactos del siniestro. 
-              .row.align-items-center
-                .col-md-10.mb-4.mb-md-0
+              .row.align-items-center.justify-content-center
+                .col-md-10.mb-0.mb-md-0.order-2.order-lg-1
                   p Entre el primer y el segundo acordonamiento se establece la “incidencia”, que es el espacio destinado para instalar el puesto de mando unificado.
-                .col-md-2.col-5
+                .col-md-2.col-5.order-1.order-lg-2.mb-4.mb-md-0
                   img(src='@/assets/curso/temas/t2/paso11.svg', alt='')
-              .row.align-items-center
+              .row.align-items-center.justify-content-center
                 .col-md-2.mb-4.mb-md-0.col-5
                   img(src='@/assets/curso/temas/t2/paso12.svg', alt='')
                 .col-md-10
                   p Después del segundo acordonamiento se debe establecer el área de protección, esta es la barrera para los periodistas y los curiosos o cualquier persona ajena a las diligencias de investigación o tratamiento del lugar de los hechos. 
-              .row.align-items-center
-                .col-md-10.mb-4.mb-md-0
+              .row.align-items-center.justify-content-center
+                .col-md-10.mb-0.mb-md-0.order-2.order-lg-1
                   p El primer responsable no está facultado para realizar actividades que competen exclusivamente a los funcionarios de policía judicial, por cuanto su labor es la de asegurar el lugar y proteger los EMP y EF.
-                .col-md-2.col-5
+                .col-md-2.col-5.order-1.order-lg-2.mb-4.mb-md-0
                   img(src='@/assets/curso/temas/t2/paso13.svg', alt='')
-              .row.align-items-center
+              .row.align-items-center.justify-content-center
                 .col-md-2.mb-4.mb-md-0.col-5
                   img(src='@/assets/curso/temas/t2/paso14.svg', alt='')
                 .col-md-10
                   p El primer responsable como autoridad debe mantener a los testigos, evitando que se retiren del lugar, separándolos o alejándose para que la policía judicial los entreviste. 
+
 
     Separador 
     
