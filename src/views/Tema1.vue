@@ -143,7 +143,7 @@
                 li 
                   i.fas.fa-chevron-right
                   | Realizadas las demás diligencias de los actos urgentes se permite el flujo vehicular. 
-      .col-lg-4.col-md-6.mb-4.d-lg-flex.d-none(data-aos="fade-left")
+      .col-lg-4.col-md-6.mb-4.d-lg-block.d-none(data-aos="fade-left")
         img(src='@/assets/curso/temas/t1/img3.png', alt='')
 
     .row.justify-content-start.mb-3
@@ -158,7 +158,7 @@
     p(data-aos="fade").mb-4 El topógrafo judicial o el funcionario encargado de la elaboración del croquis o bosquejo topográfico deberá plasmar el borrador en el campo 17 del IPAT con los siguientes criterios:  
 
     .row.justify-content-center 
-      .col-lg-3.col-md-5.mb-4.d-lg-flex.d-none(data-aos="fade-right")
+      .col-lg-3.col-md-5.mb-4.d-lg-block.d-none(data-aos="fade-right")
         img(src='@/assets/curso/temas/t1/img4.png', alt='')
       .col-lg-5.col-md-10.mb-4(data-aos="fade-left") 
         LineaTiempoD.color-primario
@@ -453,7 +453,7 @@
               p #[b a)] Los gastos médicos, hospitalarios, cirugías y medicamentos hasta 800 SMLDV. 
               p #[b b)] Por la incapacidad permanente de hasta 180 SMLDV.
               p #[b c)] En casos de muerte la familia puede reclamar hasta 750 SMLDV para gastos funerarios.
-      .col-lg-4.col-md-6.d-lg-flex.d-none.mb-lg-4(data-aos="fade-left")
+      .col-lg-4.col-md-6.d-lg-block.d-none.mb-lg-4(data-aos="fade-left")
         img(src='@/assets/curso/temas/t1/img11.png', alt='')   
 
     Separador 

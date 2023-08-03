@@ -202,7 +202,7 @@ export default {
         'Tratamiento en el lugar de los hechos en los accidentes de tránsito',
       referencia:
         'Ley 906 de 2004. [Congreso de la República].  Por la cual se expide el Código de Procedimiento Penal. Septiembre 1° de 2004. DO. No. 45.658. ',
-      tipo: 'Otro',
+      tipo: 'Web',
       link:
         'http://www.secretariasenado.gov.co/senado/basedoc/ley_0906_2004.html',
     },
@@ -211,24 +211,23 @@ export default {
         'Tratamiento en el lugar de los hechos en los accidentes de tránsito',
       referencia:
         'Resolución 0011268 de 2012. [Ministerio de Transporte]. Por la cual se adopta el nuevo informe policial de accidentes de tránsito (IPAT), su manual de diligenciamiento y se dictan otras disposiciones. Diciembre 6 de 2012. ',
-      tipo: 'Otro',
-      link: 'https://web.mintransporte.gov.co/jspui/handle/001/5348',
+      tipo: 'PDF',
+      descarga: '/downloads/Resolucion_0011268_2012.PDF',
     },
     {
       tema: 'Procedimiento de la cadena de custodia',
       referencia:
         'Fiscalía General de la Nación. 2018. <em>Manual del sistema de cadena de custodia</em>. Fiscalía General de la Nación. ',
-      tipo: 'Otro',
-      link:
-        'https://www.fiscalia.gov.co/colombia/wp-content/uploads/MANUAL-DEL-SISTEMA-DE-CADENA-DE-CUSTODIA.pdf',
+      tipo: 'PDF',
+      link: '/downloads/manual-del-sistema-de-cadena-de-custodia.pdf',
     },
     {
       tema: 'Tratamiento en el lugar de los hechos en accidentes de tránsito',
       referencia:
         'Ramos, H. y Quiroga, L. (2017). <em>Investigación de accidentes de tránsito en Colombia</em>. Policía Nacional. ',
-      tipo: 'Otro',
+      tipo: 'PDF',
       link:
-        'https://www.policia.gov.co/contenido/investigacion-accidentes-transito-colombia ',
+        '/downloads/libro-investigacion-accidentes-de-transito-en-colombia,pdf',
     },
   ],
   glosario: [

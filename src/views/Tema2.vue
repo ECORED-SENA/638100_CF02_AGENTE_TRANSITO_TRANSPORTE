@@ -23,7 +23,7 @@
                     p.mb-0 En el accidente de tránsito el primer responsable deberá conservar las posiciones finales de los vehículos, los vestigios, el estado de las huellas, los cuerpos sin vida, entre otros, desarrollando los procedimientos establecidos en el manual del sistema de custodia y cadena de custodia de la Fiscalía General de la Nación. 
               
           .row.mb-4
-            .col-lg-4.mb-4.d-lg-flex.d-none(data-aos="fade-right")
+            .col-lg-4.mb-4.d-lg-block.d-none(data-aos="fade-right")
               img(src='@/assets/curso/temas/t2/img2.png', alt='')
             .col-lg-8.mb-4(data-aos="fade-left")
               p 
