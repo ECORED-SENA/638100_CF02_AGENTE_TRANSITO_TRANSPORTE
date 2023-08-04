@@ -182,7 +182,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/638100_CF02_DU.zip',
       },
       {
         icono: 'fas fa-download',
@@ -307,7 +307,7 @@ export default {
       referencia:
         'Ramos, H. y Quiroga, L. (2017). <em>Investigación de accidentes de tránsito en Colombia</em>. Policía Nacional. ',
       link:
-        'https://www.policia.gov.co/contenido/investigacion-accidentes-transito-colombia',
+        'https://www.policia.gov.co/sites/default/files/publicaciones-institucionales/libro-investigacion-accidentes-de-transito-en-colombia.pdf',
     },
     {
       referencia:

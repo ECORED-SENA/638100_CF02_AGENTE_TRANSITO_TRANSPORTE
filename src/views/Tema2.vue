@@ -45,7 +45,7 @@
           
           .col-md-12(data-aos="fade-down")
             .titulo-sexto.color-acento-contenido
-              p.mb-0 #[b Tabla 3.] Descripción de las actividades según el manual de procedimientos de la cadena de custodia  
+              p.mb-0 #[b Tabla 2.] Descripción de las actividades según el manual de procedimientos de la cadena de custodia  
             .tabla-a.color-acento-contenido
               table
                 caption.mt-2 Nota. Adaptada del Manual del sistema de cadena de custodia de la Fiscalía General de la Nación.
@@ -195,7 +195,7 @@
     h5.t-red.mb-4(data-aos="fade") Las siguientes son las actividades de aseguramiento más importantes, según los protocolos establecidos:
 
     .titulo-sexto.color-acento-contenido
-      p.mb-0 #[b Tabla 4.] Actividades en el aseguramiento del lugar de los hechos
+      p.mb-0 #[b Tabla 3.] Actividades en el aseguramiento del lugar de los hechos
     .tabla-a.color-acento-contenido
       table
         thead
@@ -233,7 +233,7 @@
             td.text-center 5
             td 
               p Posteriormente, se debe registrar la información obtenida en sus actividades durante la atención del hecho en el formato de actuación del primer responsable.
-              p El formato debe estar completamente diligencia- do. Finalmente, se debe entregar el lugar de los hechos o lugares distintos al servidor encargado de realizar la diligencia.
+              p El formato debe estar completamente diligenciado. Finalmente, se debe entregar el lugar de los hechos o lugares distintos al servidor encargado de realizar la diligencia.
             td Primer responsable, policía nacional, fuerzas militares, policía judicial.
             td.text-center N/A
 
