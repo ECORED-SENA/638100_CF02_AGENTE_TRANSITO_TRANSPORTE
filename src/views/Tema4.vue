@@ -158,19 +158,12 @@
       h2 4.3 Características y tipos de radares de velocidad 
 
     .row
-      .col-lg-7.col-md-12.mb-4(data-aos="fade-right")
+      .col-lg-12.col-md-12.mb-4(data-aos="fade-right")
         .bg-yellow2.p-4.mb-4
           p.mb-0 Es necesario tener claridad sobre algunos conceptos como “radar” (Radio Detection and Ranging - detección y rango de radio), por lo cual el término correcto para utilizar en el lenguaje español es el de “cinemómetro” el cual según la RAE (2022), se define como un aparato para medir la velocidad.
         p El funcionamiento de un cinemómetro consiste en que el dispositivo al ser activado lanza un infrarrojo que emplea a una frecuencia de 33 MHz y una longitud de onda de 904 mm, donde el haz de láser que llega al coche refleja un pulso de luz infrarroja que regresa al cinemómetro. 
-        p El tiempo que se utiliza en toda esta operación y el intervalo entre los pulsos anteriormente mencionados determina la velocidad del coche. En la figura 4 se puede observar un ejemplo de un cinemómetro portátil.
+        p El tiempo que se utiliza en toda esta operación y el intervalo entre los pulsos anteriormente mencionados determina la velocidad del coche.
         h5.t-gold Las clases o tipos de cinemómetros se presentan en el siguiente mapa:
-      .col-lg-5.col-md-7.mb-4(data-aos="fade-left")
-        .titulo-sexto.color-acento-contenido
-          p.mb-0 #[b Figura 4.] Ejemplo de cinemómetro portátil
-        figure
-          img(src='@/assets/curso/temas/t4/img4.png', alt='')
-        figcaption.mt-2 
-          p.mb-0 #[b Nota.] Tomada de www.movilidadbogota.gov.co
 
     .row.justify-content-center 
       .col-md-12.col-lg-10

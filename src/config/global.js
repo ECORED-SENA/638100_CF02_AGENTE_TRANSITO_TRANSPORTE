@@ -212,22 +212,22 @@ export default {
       referencia:
         'Resolución 0011268 de 2012. [Ministerio de Transporte]. Por la cual se adopta el nuevo informe policial de accidentes de tránsito (IPAT), su manual de diligenciamiento y se dictan otras disposiciones. Diciembre 6 de 2012. ',
       tipo: 'PDF',
-      descarga: '/downloads/Resolucion_0011268_2012.PDF',
+      link:
+        'https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=92644',
     },
     {
       tema: 'Procedimiento de la cadena de custodia',
       referencia:
         'Fiscalía General de la Nación. 2018. <em>Manual del sistema de cadena de custodia</em>. Fiscalía General de la Nación. ',
       tipo: 'PDF',
-      link: '/downloads/manual-del-sistema-de-cadena-de-custodia.pdf',
+      descarga: '/downloads/manual-del-sistema-de-cadena-de-custodia.pdf',
     },
     {
       tema: 'Tratamiento en el lugar de los hechos en accidentes de tránsito',
       referencia:
         'Ramos, H. y Quiroga, L. (2017). <em>Investigación de accidentes de tránsito en Colombia</em>. Policía Nacional. ',
       tipo: 'PDF',
-      link:
-        '/downloads/libro-investigacion-accidentes-de-transito-en-colombia,pdf',
+      link: 'https://www.policia.gov.co/file/187193/download?token=JuaAf5sw',
     },
   ],
   glosario: [
