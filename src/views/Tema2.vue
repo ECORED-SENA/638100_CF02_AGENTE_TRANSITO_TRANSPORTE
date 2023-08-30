@@ -226,7 +226,7 @@
             td.text-center 4
             td 
               p Si se encuentran testigos, sospechosos o familia res de las víctimas, se debe evitar que estos se retiren, se procede a separarlos impidiendo la comunicación entre ellos.
-              p Adicionalmente, deben tomarse los datos gene- rales de identificación: nombre, cédula de ciudadanía, parentesco con la víctima, lugar de residencia, entre otros datos. Esta información se debe consignar en el formato de actuación del primer responsable.
+              p Adicionalmente, deben tomarse los datos generales de identificación: nombre, cédula de ciudadanía, parentesco con la víctima, lugar de residencia, entre otros datos. Esta información se debe consignar en el formato de actuación del primer responsable.
             td Primer responsable, policía nacional, fuerzas militares, policía judicial.
             td.text-center N/A
           tr

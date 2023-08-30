@@ -302,6 +302,8 @@
     .titulo-segundo.color-acento-contenido(data-aos="fade")
       h2 1.3 Fijación fotográfica en los accidentes de tránsito                    
 
+    p.mb-4(data-aos="fade") Los aspectos a tener en cuenta como parte de las técnicas de fijación fotográfica en los accidentes de tránsito son:
+
     .row
       .col-lg-8.col-md-12.mb-4(data-aos="fade-right")
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg-yellow4")
@@ -330,19 +332,19 @@
         .col-lg-3.col-md-11.my-3.mb-lg-0.d-lg-flex.d-none(data-aos="fade-right")
           img(src='@/assets/curso/temas/t1/img8.png', alt='')
         .col-lg-8.col-md-12.my-3(data-aos="fade-left")  
-          img(src='@/assets/curso/temas/t1/infog2.svg', alt='')
+          img(src='@/assets/curso/temas/t1/infog2.svg', alt='Los elementos básicos del fotógrafo son: reglas, escuadras, cámara fotográfica, testigos, equipo de bioseguridad, trípode y flechas indicadoras.')
 
       p(data-aos="fade") La actividad del fotógrafo judicial o del agente de tránsito encargado de la fijación fotográfica debe ser coordinada con el topógrafo, definiendo cuál de los dos procedimientos debe realizarse primero. Revisar detalles del lugar de los hechos que pueden escapar al topógrafo, tanto del lugar de los hechos como de los elementos materiales probatorios.
 
       .row.justify-content-center.mb-4
-        .col-lg-7.my-3(data-aos="fade-left") 
+        .col-lg-7.my-3(data-aos="fade-right") 
           p(data-aos="fade").title-1 Es importante, en relación con la labor del fotógrafo, aplicar los principios y los protocolos para el manejo del lugar de los hechos, las rutas de ingreso y de salida y la secuencia de la ubicación de los EMP y EF. El fotógrafo debe ubicar los numeradores en cada evidencia, registrar desde lo general a lo particular, se hace progresivamente, se respeta el espacio y la distancia de cada elemento para no alterar la escena. 
           h4(data-aos="fade") ¡Nota importante!
           h5(data-aos="fade").mb-4 Para los elementos de menor tamaño que requieren ser estimados en una escala se debe usar el testigo métrico y la flecha indicadora, especialmente para detallar heridas en el occiso, daños en los vehículos, el ancho de las huellas, las marcas y los rastros biológicos. 
           .bg-blue3.p-4
             h5(data-aos="fade-down") Las tomas fotográficas que se deben tomar en el accidente de tránsito son: 
             .row         
-              .col-auto(data-aos="fade-right")         
+              .col-auto(data-aos="fade-left")         
                 ul.lista-ul.fa-ul.mb-0
                   li.mb-2 
                     i.fas.fa-chevron-right
@@ -383,27 +385,34 @@
           .col-md-6.col-lg-4.mb-4.mb-md-0.up.d-lg-flex.d-none(data-aos="fade-right")
             img(src='@/assets/curso/temas/t1/img10.png', alt='')
           .col-md-8.col-lg-8.mb-4.mb-md-0.up(data-aos="fade-left")
-            SlyderF.text-center.pb-4(columnas="col-lg-6")(data-aos="fade-right")
-              .tarjeta
-                .row.justify-content-center
-                  .col-12
-                    img(src='@/assets/curso/temas/t1/tarj1.png' alt='Panorámica: imagen de un accidente que enfoca la generalidad del lugar y la situación.') 
-              .tarjeta
-                .row.justify-content-center
-                  .col-12
-                    img(src='@/assets/curso/temas/t1/tarj2.png' alt='Plano general: imagen del accidente que enfoca más de cerca el siniestro, evita mostrar el entorno.')
-              .tarjeta
-                .row.justify-content-center
-                  .col-12
-                    img(src='@/assets/curso/temas/t1/tarj3.png' alt='Plano medio: imagen del mismo accidente que enfoca, en concreto, el siniestro (choque de dos vehículos) y no muestra otros elementos.')
-              .tarjeta
-                .row.justify-content-center
-                  .col-12
-                    img(src='@/assets/curso/temas/t1/tarj4.png' alt='Primer plano: imagen del accidente, que enfoca partes generales de los vehículos implicados en el siniestro y algunas afectaciones sufridas.')
-              .tarjeta
-                .row.justify-content-center
-                  .col-12
-                    img(src='@/assets/curso/temas/t1/tarj5.png' alt='Primerísimo plano: imagen del accidente que muestra, en concreto, daños específicos de partes específicas de vehículo afectado, muy de cerca.')
+            .d-md-none.d-block
+              img.mb-3(src='@/assets/curso/temas/t1/tarj1.png' alt='Panorámica: imagen de un accidente que enfoca la generalidad del lugar y la situación.') 
+              img.mb-3(src='@/assets/curso/temas/t1/tarj2.png' alt='Plano general: imagen del accidente que enfoca más de cerca el siniestro, evita mostrar el entorno.')
+              img.mb-3(src='@/assets/curso/temas/t1/tarj3.png' alt='Plano medio: imagen del mismo accidente que enfoca, en concreto, el siniestro (choque de dos vehículos) y no muestra otros elementos.')
+              img.mb-3(src='@/assets/curso/temas/t1/tarj4.png' alt='Primer plano: imagen del accidente, que enfoca partes generales de los vehículos implicados en el siniestro y algunas afectaciones sufridas.')
+              img(src='@/assets/curso/temas/t1/tarj5.png' alt='Primerísimo plano: imagen del accidente que muestra, en concreto, daños específicos de partes específicas de vehículo afectado, muy de cerca.')
+            .d-md-block.d-none
+              SlyderF.text-center.pb-4(columnas="col-lg-6")(data-aos="fade-right")
+                .tarjeta
+                  .row.justify-content-center
+                    .col-12
+                      img(src='@/assets/curso/temas/t1/tarj1.png' alt='Panorámica: imagen de un accidente que enfoca la generalidad del lugar y la situación.') 
+                .tarjeta
+                  .row.justify-content-center
+                    .col-12
+                      img(src='@/assets/curso/temas/t1/tarj2.png' alt='Plano general: imagen del accidente que enfoca más de cerca el siniestro, evita mostrar el entorno.')
+                .tarjeta
+                  .row.justify-content-center
+                    .col-12
+                      img(src='@/assets/curso/temas/t1/tarj3.png' alt='Plano medio: imagen del mismo accidente que enfoca, en concreto, el siniestro (choque de dos vehículos) y no muestra otros elementos.')
+                .tarjeta
+                  .row.justify-content-center
+                    .col-12
+                      img(src='@/assets/curso/temas/t1/tarj4.png' alt='Primer plano: imagen del accidente, que enfoca partes generales de los vehículos implicados en el siniestro y algunas afectaciones sufridas.')
+                .tarjeta
+                  .row.justify-content-center
+                    .col-12
+                      img(src='@/assets/curso/temas/t1/tarj5.png' alt='Primerísimo plano: imagen del accidente que muestra, en concreto, daños específicos de partes específicas de vehículo afectado, muy de cerca.')
 
     Separador 
     
@@ -413,7 +422,7 @@
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10.col-12.col-md-9.my-3.order-1
-        p(data-aos="fade-down") Los accidentes de tránsito dejan cada año cifras lamentables de personas lesionadas y fallecidas, muchas de ellas no reciben una atención oportuna y de acuerdo con los datos estadísticos de la Agencia Nacional de Seguridad Vial un número importante de personas fallecen en hospitales como consecuencia de las lesiones ocasionadas en los siniestros viales.
+        p(data-aos="fade-down") Los accidentes de tránsito dejan cada año cifras lamentables de personas lesionadas y fallecidas, muchas de ellas no reciben una atención oportuna y de acuerdo con los datos estadísticos de la Agencia Nacional de Seguridad Vial, un número importante de personas fallecen en hospitales como consecuencia de las lesiones ocasionadas en los siniestros viales.
         p(data-aos="fade-down").mb-0 Las acciones fundamentales que se deben realizar minutos posteriores al accidente de tránsito son:             
       .col-lg-2.col-5.col-md-3.my-3.order-lg-2
         img(data-aos="fade")(src='@/assets/curso/temas/t1/ico11.svg', alt='')                                                                
@@ -461,7 +470,7 @@
     #t_1_5
     .titulo-segundo.color-acento-contenido.mb-3(data-aos="fade")
       h2 1.5 Técnicas de inspección al cadáver ASD
-    p(data-aos="fade") La inspección al ca dáver es uno de los actos urgentes que se realiza en el lugar de los hechos, consiste en:
+    p(data-aos="fade") La inspección al cadáver es uno de los actos urgentes que se realiza en el lugar de los hechos, consiste en:
 
     .row.justify-content-center 
       .col-lg-10.up
@@ -481,7 +490,7 @@
                 | Cronotanatología, morfología.    
 
     .fondo4-t1
-      .row.justify-content-start.mb-3
+      .row.justify-content-start.mb-4
         .col-auto(data-aos="fade")
           .list
             .list__item
@@ -490,7 +499,7 @@
             .list__txt.box-ico.top-ico.p-0.px-4
               h4.mb-0 Posiciones del cadáver
 
-      p(data-aos="fade-down").mb-5 Debido a que el transporte es un servicio esencial en las actividades económicas de un país, se requiere que este sea a través de empresas legalmente constituidas y habilitada, en la tabla a continuación se presenta un panorama general de la normatividad en este sentido:       
+      p(data-aos="fade-down").mb-4 Estas se pueden consultar en la siguiente tabla:
 
       .row.justify-content-center.mb-5     
         .col-lg-8(data-aos="fade-down") 
@@ -513,7 +522,7 @@
                   td.table-w Muñeca   
                   td.text-start Flexión, extensión, supinación o pronación   
                 tr
-                  td.table-w Codo   
+                  td.table-w Dedos   
                   td.text-start Flexión o extensión, abducción o aducción 
                 tr
                   td.table-w Cadera   
@@ -582,7 +591,66 @@
       h2 1.6 Recolección de la información 
 
     p(data-aos="fade") Se compone de varios pasos, a saber:
-    .tarjeta.tarjeta--gris2.p-4.pb-0.mb-5
+    
+    .d-md-none.d-block.mb-5
+      .bg-yellow3.p-4.box-radius.mb-3
+        h4.t1 El acervo probatorio
+        ul.lista-ul.fa-ul
+          li 
+            i.fas.fa-chevron-right
+            | Reunión de todos aquellos elementos y argumentos que son aceptados y validados como prueba dentro del proceso judicial.
+          li 
+            i.fas.fa-chevron-right
+            | Las pruebas constitutivas del acervo probatorio deben tener un tratamiento exegético con los procedimientos establecidos para este fin. 
+          li 
+            i.fas.fa-chevron-right
+            | Búsqueda y recolección de los EMP y EF.
+          li 
+            i.fas.fa-chevron-right
+            | Aplicar los protocolos estandarizados y documentados, de que trata el manual de cadena de custodia, el manual de policía judicial y el código de procedimiento penal.  
+      .bg-yellow3.p-4.box-radius.mb-3
+        h4.t1 Recopilación de pruebas
+        ul.lista-ul.fa-ul
+          li 
+            i.fas.fa-chevron-right
+            | Se presenta tanto en el lugar de los hechos como fuera de este, en cuyo caso requiere un trabajo investigativo articulado. 
+          li 
+            i.fas.fa-chevron-right
+            | Hallazgos encontrados en el desarrollo de los actos urgentes con los análisis del crimen a investigar.
+          li 
+            i.fas.fa-chevron-right
+            | Para el caso de los accidentes de tránsito, esta labor se supedita a la búsqueda de información de participantes del hecho, vehículos, vías y fenómenos asociados.
+          li 
+            i.fas.fa-chevron-right
+            | Bases de datos, argumentos doctrinales y científicos que tienen respaldo y aceptación.  
+      .bg-yellow3.p-4.box-radius.mb-3
+        h4.t1 Toma de datos
+        ul.lista-ul.fa-ul
+          li 
+            i.fas.fa-chevron-right
+            | Proceso sistémico y ordenado que conlleva entablar una metodología para la indagación de los hechos y las causas que dieron origen al siniestro.
+          li 
+            i.fas.fa-chevron-right
+            | El investigador deberá recopilar la información del lugar de los hechos a través de la inspección, la fijación, las entrevistas y terminar con la búsqueda en las bases de datos; pero llevando la secuencia organizada. 
+          li 
+            i.fas.fa-chevron-right
+            | Dilucidar al investigador o investigadores sobre los hechos acaecidos y proporcionar la mayor cantidad de información que se puede extraer de las diligencias, tanto en el terreno como fuera de este.
+          li 
+            i.fas.fa-chevron-right
+            | Se debe tener especial cuidado antes, durante y después de la recolección de la información, toda vez que no conserven las características esenciales para relacionarlas con los hechos y no sean aceptadas en el proceso. 
+      .bg-yellow3.p-4.box-radius.mb-3
+        h4.t1 Reconstrucción del accidente de tránsito
+        ul.lista-ul.fa-ul
+          li 
+            i.fas.fa-chevron-right
+            | Representación retrospectiva más cercana a la realidad de todos los sucesos que se llevaron a cabo para la materialización del acontecimiento.
+          li 
+            i.fas.fa-chevron-right
+            | Requiere de una labor muy precisa en la toma de los datos y la recopilación de información útil.
+          li 
+            i.fas.fa-chevron-right
+            | Análisis coherente de la información recolectada para que el investigador o analista pueda establecer hipótesis y conjeturas objetivas.   
+    .d-md-block.d-none.tarjeta.tarjeta--gris2.p-4.pb-0.mb-5
       LineaTiempoC.color-acento-botones
         .row.justify-content-center.align-items-center(titulo="Paso1")
           .col-lg-7.col-md-12.my-3.order-1
@@ -616,7 +684,7 @@
                   | Hallazgos encontrados en el desarrollo de los actos urgentes con los análisis del crimen a investigar.
                 li 
                   i.fas.fa-chevron-right
-                  | Para el caso de los accidentes de tránsito esta labor se supedita a la búsqueda de información de participantes del hecho, vehículos, vías y fenómenos asociados.
+                  | Para el caso de los accidentes de tránsito, esta labor se supedita a la búsqueda de información de participantes del hecho, vehículos, vías y fenómenos asociados.
                 li 
                   i.fas.fa-chevron-right
                   | Bases de datos, argumentos doctrinales y científicos que tienen respaldo y aceptación.  
@@ -629,7 +697,7 @@
               ul.lista-ul.fa-ul
                 li 
                   i.fas.fa-chevron-right
-                  | Proceso sistémico y ordenado que conlleva a entablar una metodología para la indagación de los hechos y las causas que dieron origen al siniestro.
+                  | Proceso sistémico y ordenado que conlleva entablar una metodología para la indagación de los hechos y las causas que dieron origen al siniestro.
                 li 
                   i.fas.fa-chevron-right
                   | El investigador deberá recopilar la información del lugar de los hechos a través de la inspección, la fijación, las entrevistas y terminar con la búsqueda en las bases de datos; pero llevando la secuencia organizada. 
@@ -660,44 +728,76 @@
     
     h4.t-gold.mb-4 A continuación, se ofrecen los pasos para recolección de información, en el proceso de reconstrucción de un accidente de tránsito:
 
-    .row.fondo3-t1.align-items-center.pt-3.mb-4
+    .row.fondo3-t1.align-items-center.pt-3.mb-5
       .col-lg-12.col-12.px-lg-5.px-4.up
         .row.justify-content-center.align-items-center
 
           .col-md-6.col-lg-4.mb-4.mb-md-0.d-lg-flex.d-none.up(data-aos="fade-right")
             img(src='@/assets/curso/temas/t1/img14.png', alt='')
           .col-md-11.col-lg-8.mb-4.mb-md-0.up(data-aos="fade-left")
-            SlyderF.text-center.pb-4(columnas="col-lg-6")(data-aos="fade-right")
-              .tarjeta.bgcard.ts.h-100.p-4
+            .d-md-none.d-block 
+              .tarjeta.bgcard.ts.h-100.p-4.mb-3
                 .row.justify-content-center.align-items-center.mb-3           
                   .col-auto.bgn.p-2
                     h5.mb-0.mx-1(data-aos="fade-down") 1 
                 p.mb-0 Recepción de la información - noticia criminal y verificación de la información recibida. Desplazamiento al lugar de ocurrencia de los hechos y dimensional la magnitud del caso. 
-              .tarjeta.bgcard.ts.h-100.p-4
+              .tarjeta.bgcard.ts.h-100.p-4.mb-3
                 .row.justify-content-center.align-items-center.mb-3           
                   .col-auto.bgn.p-2
                     h5.mb-0.mx-1(data-aos="fade-down") 2 
                 p.mb-0 Atención primaria a las víctimas y activación de las líneas de emergencia y solicitud de apoyo. Aseguramiento del lugar de los hechos, organización y realización de actividades de manejo y control del tránsito. 
-              .tarjeta.bgcard.ts.h-100.p-4
+              .tarjeta.bgcard.ts.h-100.p-4.mb-3
                 .row.justify-content-center.align-items-center.mb-3           
                   .col-auto.bgn.p-2
                     h5.mb-0.mx-1(data-aos="fade-down") 3 
                 p.mb-0 Identificación de responsables y comprobación de participación de niños, niñas y adolescentes. Coordinación de la presencia de la policía de infancia y adolescencia, si es necesario.  
-              .tarjeta.bgcard.ts.h-100.p-4
+              .tarjeta.bgcard.ts.h-100.p-4.mb-3
                 .row.justify-content-center.align-items-center.mb-3           
                   .col-auto.bgn.p-2
                     h5.mb-0.mx-1(data-aos="fade-down") 4
-                p.mb-0 Individualización y presentación del sindicado y solicitud de prueba de alcoholemia a los conductores. Trabajo de campo criminalístico y aplicación de la norma de tránsito - orden de comparendo cuando es procedente y/o procedimiento de inmovilización-. 
-              .tarjeta.bgcard.ts.h-100.p-4
+                p.mb-0 Individualización y presentación del sindicado y solicitud de prueba de alcoholemia a los conductores. Trabajo de campo criminalístico y aplicación de la norma de tránsito. Orden de comparendo cuando es procedente y/o procedimiento de inmovilización. 
+              .tarjeta.bgcard.ts.h-100.p-4.mb-3
                 .row.justify-content-center.align-items-center.mb-3           
                   .col-auto.bgn.p-2
                     h5.mb-0.mx-1(data-aos="fade-down") 5 
                 p.mb-0 Solicitar historia clínica y/o epicrisis. Diligenciamiento del IPAT, entrega de copias del IPAT. Realización de actos urgentes en centros hospitalarios. 
-              .tarjeta.bgcard.ts.h-100.p-4
+              .tarjeta.bgcard.ts.h-100.p-4.mb-3
                 .row.justify-content-center.align-items-center.mb-3           
                   .col-auto.bgn.p-2
                     h5.mb-0.mx-1(data-aos="fade-down") 6 
                 p.mb-0 Radicación y entrega de caso a la autoridad competente.    
+            .d-md-block.d-none
+              SlyderF.text-center.pb-4(columnas="col-lg-6")(data-aos="fade-right")
+                .tarjeta.bgcard.ts.h-100.p-4
+                  .row.justify-content-center.align-items-center.mb-3           
+                    .col-auto.bgn.p-2
+                      h5.mb-0.mx-1(data-aos="fade-down") 1 
+                  p.mb-0 Recepción de la información - noticia criminal y verificación de la información recibida. Desplazamiento al lugar de ocurrencia de los hechos y dimensional la magnitud del caso. 
+                .tarjeta.bgcard.ts.h-100.p-4
+                  .row.justify-content-center.align-items-center.mb-3           
+                    .col-auto.bgn.p-2
+                      h5.mb-0.mx-1(data-aos="fade-down") 2 
+                  p.mb-0 Atención primaria a las víctimas y activación de las líneas de emergencia y solicitud de apoyo. Aseguramiento del lugar de los hechos, organización y realización de actividades de manejo y control del tránsito. 
+                .tarjeta.bgcard.ts.h-100.p-4
+                  .row.justify-content-center.align-items-center.mb-3           
+                    .col-auto.bgn.p-2
+                      h5.mb-0.mx-1(data-aos="fade-down") 3 
+                  p.mb-0 Identificación de responsables y comprobación de participación de niños, niñas y adolescentes. Coordinación de la presencia de la policía de infancia y adolescencia, si es necesario.  
+                .tarjeta.bgcard.ts.h-100.p-4
+                  .row.justify-content-center.align-items-center.mb-3           
+                    .col-auto.bgn.p-2
+                      h5.mb-0.mx-1(data-aos="fade-down") 4
+                  p.mb-0 Individualización y presentación del sindicado y solicitud de prueba de alcoholemia a los conductores. Trabajo de campo criminalístico y aplicación de la norma de tránsito. Orden de comparendo cuando es procedente y/o procedimiento de inmovilización. 
+                .tarjeta.bgcard.ts.h-100.p-4
+                  .row.justify-content-center.align-items-center.mb-3           
+                    .col-auto.bgn.p-2
+                      h5.mb-0.mx-1(data-aos="fade-down") 5 
+                  p.mb-0 Solicitar historia clínica y/o epicrisis. Diligenciamiento del IPAT, entrega de copias del IPAT. Realización de actos urgentes en centros hospitalarios. 
+                .tarjeta.bgcard.ts.h-100.p-4
+                  .row.justify-content-center.align-items-center.mb-3           
+                    .col-auto.bgn.p-2
+                      h5.mb-0.mx-1(data-aos="fade-down") 6 
+                  p.mb-0 Radicación y entrega de caso a la autoridad competente.    
 
     .row.justify-content-start.mb-3
       .col-auto(data-aos="fade")
@@ -753,15 +853,16 @@
 
       .row.mb-4
         .col-lg-8.mb-4(data-aos="fade-right")
-          .row.mb-3
+          .row.mb-4
             .col-md-3.mb-4.mb-md-0
               img(src='@/assets/curso/temas/t1/ico16.svg', alt='')
             .col-md-9.mb-4.mb-md-0
               p.title-1 El testigo es la persona que estuvo presente en la materialización de los hechos y puede dar fe de la evolución del accidente o de parte de esta, ya que goza de un conocimiento presencial de la comisión del delito, aportando datos fiables de este suceso y de las posibles causas que lo desencadenaron. 
+          
           h4(data-aos="fade") ¿Cómo abordar a los testigos?
           p(data-aos="fade") Normalmente las personas son renuentes a cooperar en una entrevista porque se sienten comprometidas e involucradas en el problema judicial, además de la responsabilidad de ratificar sus versiones de lo observado ante las autoridades judiciales hace que se sientan intimidadas y prefieren no participar, negarse a responder interrogantes o simplemente indicar que no recuerdan nada de lo sucedido. 
 
-          p(data-aos="fade") Para poder solucionar este inconveniente y romper esas barreras de rechazo de las personas es necesario que el investigador entable una conversación previa, saliendo de los esquemas formales para poder explicarle a las personas cuál es la dinámica de la entrevista y sus verdaderas connotaciones para que el testigo se sienta con la seguridad de poder rendir una versión real de los hechos. Una vez ganada la confianza y permitida la entrevista se debe seguir este protocolo:          
+          p(data-aos="fade") Para poder solucionar este inconveniente y romper esas barreras de rechazo de las personas, es necesario que el investigador entable una conversación previa, saliendo de los esquemas formales para poder explicarle a las personas cuál es la dinámica de la entrevista y sus verdaderas connotaciones para que el testigo se sienta con la seguridad de poder rendir una versión real de los hechos. Una vez ganada la confianza y permitida la entrevista se debe seguir este protocolo:          
         .col-lg-4.mb-4(data-aos="fade-left")
           img(src='@/assets/curso/temas/t1/img16.png', alt='')
            

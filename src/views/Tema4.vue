@@ -10,7 +10,7 @@
     
     .row
       .col-lg-10.col-md-9.mb-4(data-aos="fade-right")
-        p El desarrollo vertiginoso de la tecnología ha permitido transformaciones en todos los ámbitos sociales, la seguridad vial, el tránsito y el transporte también se han beneficiado de estos avances para lograr una evolución continua especialmente en tres aspectos importantes que son: 
+        p El desarrollo vertiginoso de la tecnología ha permitido transformaciones en todos los ámbitos sociales, la seguridad vial, el tránsito y el transporte también se han beneficiado de estos avances para lograr una evolución continua, especialmente en tres aspectos importantes que son: 
       .col-lg-2.col-md-3.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/temas/t4/img.svg', alt='')
 
@@ -57,7 +57,7 @@
                   .col-md-10.col-lg-5.mb-4.mb-lg-0
                     img(src='@/assets/curso/temas/t4/slide3.png', alt='')
 
-    p(data-aos="fade") En torno a lo anterior, también es importante estar a la vanguardia de estas tecnologías en la aplicación de controles del tránsito y el transporte, con el fin de hallar un equilibrio y armonía vial donde se tengan vehículos más sofisticados que respeten los límites de velocidad y las normas de tránsito, las vías con mayores flujos vehiculares que cumplan con los estándares de seguridad y transporte más eficientes, y que circulen respetando los derechos de los demás actores viales.  Para lograr este objetivo las autoridades encargadas del control operativo del tránsito terrestre (agentes de tránsito y policías de tránsito) se valen de equipos tecnológicos como los radares de velocidad y los equipos de controles para detectar los conductores bajo el influjo del alcohol y las drogas.
+    p(data-aos="fade") En torno a lo anterior, también es importante estar a la vanguardia de estas tecnologías en la aplicación de controles del tránsito y el transporte, con el fin de hallar un equilibrio y armonía vial donde se tengan vehículos más sofisticados que respeten los límites de velocidad y las normas de tránsito, las vías con mayores flujos vehiculares que cumplan con los estándares de seguridad y transporte más eficientes, y que circulen respetando los derechos de los demás actores viales.  Para lograr este objetivo, las autoridades encargadas del control operativo del tránsito terrestre (agentes de tránsito y policías de tránsito) se valen de equipos tecnológicos como los radares de velocidad y los equipos de controles para detectar los conductores bajo el influjo del alcohol y las drogas.
 
 
     Separador 
@@ -112,7 +112,7 @@
           
           .col-md-7.mb-4(data-aos="fade-right")
             .bg-blue.p-4.h-100
-              p.mb-0 Si bien es cierto que en mercado tecnológico existen herramientas y equipos para detectar el consumo de drogas como el Philips Drug Analizer, que detecta el consumo de hasta 5 estupefacientes en menos de 90 segundos como la cocaína, heroína, cannabis, anfetaminas y metanfetaminas, es importante precisar que no se encuentra regulado ni avalado por parte del el Instituto Nacional de Medicina Legal y Ciencias Forenses para aplicación de pruebas o controles en Colombia.
+              p.mb-0 Si bien es cierto que en mercado tecnológico existen herramientas y equipos para detectar el consumo de drogas como el #[em Philips Drug Analizer], que detecta el consumo de hasta 5 estupefacientes en menos de 90 segundos como la cocaína, heroína, cannabis, anfetaminas y metanfetaminas, es importante precisar que no se encuentra regulado ni avalado por parte de el Instituto Nacional de Medicina Legal y Ciencias Forenses para aplicación de pruebas o controles en Colombia.
           .col-md-5.mb-4(data-aos="fade-left")
             img(src='@/assets/curso/temas/t4/img3.png', alt='')
 
@@ -134,7 +134,7 @@
                 .col-lg-10
                   h4 Actividad 2 - Examen médico forense
                   p Anamnesis es el instrumento de evaluación que permite, a través de una interacción mutuamente participativa entre el perito y el examinador, obtener una información útil que sirva para la posterior generación del informe médico legal de embriaguez. Relato de los hechos, antecedentes patológicos, psiquiátricos, farmacológicos, toxicológicos.
-                  p Examen clínico presentación, porte y actitud, conciencia, orientación, signos vitales, aliento y olores particulares, piel y faneras, congestión conjuntival, pupilas y convergencia ocular, hidratación de mucosas, conducta motora, atención, memoria, afecto, lenguaje, pensamiento, sensopercepción, inteligencia, juicio, introspección, nistagmus, coordinación y equilibrio, pruebas para evaluación de la marcha, exámenes complementarios, toma de muestras.
+                  p Examen clínico: presentación, porte y actitud, conciencia, orientación, signos vitales, aliento y olores particulares, piel y faneras, congestión conjuntival, pupilas y convergencia ocular, hidratación de mucosas, conducta motora, atención, memoria, afecto, lenguaje, pensamiento, sensopercepción, inteligencia, juicio, introspección, nistagmus, coordinación y equilibrio, pruebas para evaluación de la marcha, exámenes complementarios, toma de muestras.
               .row
                 .col-lg-10.mb-4.mb-md-0.order-2.order-lg-1
                   h4 Actividad  3 - Análisis, interpretación y conclusiones
@@ -160,7 +160,7 @@
     .row
       .col-lg-12.col-md-12.mb-4(data-aos="fade-right")
         .bg-yellow2.p-4.mb-4
-          p.mb-0 Es necesario tener claridad sobre algunos conceptos como “radar” (Radio Detection and Ranging - detección y rango de radio), por lo cual el término correcto para utilizar en el lenguaje español es el de “cinemómetro” el cual según la RAE (2022), se define como un aparato para medir la velocidad.
+          p.mb-0 Es necesario tener claridad sobre algunos conceptos como “radar” (#[em Radio Detection and Ranging] - detección y rango de radio), por lo cual el término correcto para utilizar en el lenguaje español es el de “cinemómetro” el cual según la RAE (2022), se define como un aparato para medir la velocidad.
         p El funcionamiento de un cinemómetro consiste en que el dispositivo al ser activado lanza un infrarrojo que emplea a una frecuencia de 33 MHz y una longitud de onda de 904 mm, donde el haz de láser que llega al coche refleja un pulso de luz infrarroja que regresa al cinemómetro. 
         p El tiempo que se utiliza en toda esta operación y el intervalo entre los pulsos anteriormente mencionados determina la velocidad del coche.
         h5.t-gold Las clases o tipos de cinemómetros se presentan en el siguiente mapa:

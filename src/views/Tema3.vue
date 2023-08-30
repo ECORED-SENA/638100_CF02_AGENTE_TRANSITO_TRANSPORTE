@@ -25,7 +25,7 @@
       .col-lg-4.col-md-6.mb-4
         .tarjeta.h-100.p-4.fondo-hover
           img.mb-3(src='@/assets/curso/temas/t3/ico.svg', alt='' style="width: 90px;")
-          p Las pruebas que se hallan deben ser registradas, fijadas en primer lugar, luego su recolección exige formalismos de identificación, n aturaleza, lugar donde fueron encontradas y el funcionario o la persona que las recoge, así como también cualquier cambio que se haya presentado durante su tratamiento.  
+          p Las pruebas que se hallan deben ser registradas, fijadas en primer lugar, luego su recolección exige formalismos de identificación, naturaleza, lugar donde fueron encontradas y el funcionario o la persona que las recoge, así como también cualquier cambio que se haya presentado durante su tratamiento.  
     
     p.mb-4(data-aos="fade") El sistema de cadena de custodia es un proceso continuo y documentado aplicado a los EMP y EF por parte de los servidores públicos y particulares, que con ocasión a sus funciones deben garantizar su autenticidad y capacidad demostrativa, mientras que la autoridad competente ordena su disposición final (Fiscalía General de la Nación, 2018, p. 11). 
       
@@ -115,7 +115,7 @@
       .col-lg-6.col-md-12.mb-4(data-aos="fade-right")
         .bg-yellow2.p-4.mb-4.h-100.d-flex.align-items-center
           .row.align-items-center
-            .col-md-2
+            .col-md-2.col-4.mb-3.mb-md-0
               img(src='@/assets/curso/temas/t3/ico2.svg', alt='')
             .col-md-10
               p.mb-0 La cadena de custodia es el conjunto de procedimientos encaminados a asegurar y demostrar la autenticidad de los elementos materiales probatorios y la evidencia física.       
@@ -168,7 +168,7 @@
       .row
         .col-lg-6.col-md-12.mb-4(data-aos="fade-right")
           .bg-blue.p-4.py-lg-2.mb-4.h-100.d-flex.align-items-center
-            p.mb-0 Como se verá a continuación el formato se compone de dos partes, la primera es donde se registra la persona o las personas que tratan los EMP y EF en caso de ser diferente quien haya, recolecta o embala el elemento material de prueba; la segunda parte es el registro de los traslados de esos EMP y EF con las personas que participan en esos traslados y el motivo de la diligencia, como se muestra a continuación: 
+            p.mb-0 Como se verá a continuación, el formato se compone de dos partes, la primera es donde se registra la persona o las personas que tratan los EMP y EF en caso de ser diferente quien haya, recolecta o embala el elemento material de prueba; la segunda parte es el registro de los traslados de esos EMP y EF con las personas que participan en esos traslados y el motivo de la diligencia: 
         .col-lg-6.col-md-12.mb-4(data-aos="fade-left")
           img(src='@/assets/curso/temas/t3/img6.png', alt='')
 
@@ -178,7 +178,7 @@
       .col-lg-6.col-md-12.mb-4(data-aos="fade-left")
         p.mb-4(data-aos="fade") Es el documento físico donde se registran todas las acciones y los responsables que tienen relación con los elementos materiales de prueba o evidencia física, y el que data de continuidad, relativamente es un documento sencillo en su diligenciamiento. 
         .bg-blue.p-4.py-lg-2.mb-4.h-100.d-flex.align-items-center
-          p.mb-0 Como se verá a continuación el formato se compone de dos partes, la primera es donde se registra la persona o las personas que tratan los EMP y EF en caso de ser diferente quien haya, recolecta o embala el elemento material de prueba; la segunda parte es el registro de los traslados de esos EMP y EF con las personas que participan en esos traslados y el motivo de la diligencia, como se muestra a continuación: 
+          p.mb-0 Como se verá a continuación, el formato se compone de dos partes, la primera es donde se registra la persona o las personas que tratan los EMP y EF en caso de ser diferente quien haya, recolecta o embala el elemento material de prueba; la segunda parte es el registro de los traslados de esos EMP y EF con las personas que participan en esos traslados y el motivo de la diligencia: 
         
 
 

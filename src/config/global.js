@@ -220,7 +220,8 @@ export default {
       referencia:
         'Fiscalía General de la Nación. 2018. <em>Manual del sistema de cadena de custodia</em>. Fiscalía General de la Nación. ',
       tipo: 'PDF',
-      descarga: '/downloads/manual-del-sistema-de-cadena-de-custodia.pdf',
+      link:
+        'https://www.fiscalia.gov.co/colombia/wp-content/uploads/MANUAL-DEL-SISTEMA-DE-CADENA-DE-CUSTODIA.pdf',
     },
     {
       tema: 'Tratamiento en el lugar de los hechos en accidentes de tránsito',
@@ -351,7 +352,7 @@ export default {
           nombre: 'Hoover Fabián Ramos Enríquez',
           cargo: 'Experto temático',
           centro:
-            'Centro de la Industria, la Empresa y los servicios - CIESSAN',
+            'Centro de la Industria, la Empresa y los servicios - CIESSAN - Regional Huila',
         },
         {
           nombre: 'Diego Acevedo Guevara',
