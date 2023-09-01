@@ -59,7 +59,7 @@
 
     h4(data-aos="fade") Actos urgentes 
 
-    p.mb-4(data-aos="fade") Se de ben desarrollar por parte de las autoridades operativas de tránsito (Agentes o Policías de tránsito) en sus funciones de Policía Judicial y son:  
+    p.mb-4(data-aos="fade") Se deben desarrollar por parte de las autoridades operativas de tránsito (Agentes o Policías de tránsito) en sus funciones de Policía Judicial y son:  
 
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-10.box-shadow.px-0
@@ -184,7 +184,7 @@
       .col-lg-10(data-aos="fade-down") 
         .titulo-sexto.color-acento-contenido
           h5 Figura 1.
-          span  lustración SEQ Ilustración \* ARABIC 4 Cotas permitidas en el bosquejo topográfico 
+          span Ilustración SEQ Ilustración \* ARABIC 4 Cotas permitidas en el bosquejo topográfico 
         img(src='@/assets/curso/temas/t1/fig.png', alt='Gráfica intencional que ilustra una vía donde sucedió un accidente. Detalla anchos de calzada del tramo, longitud de los andenes, medidas de la bahía existente en el sitio, ubicación del vehículo accidentado y distancias varias.')
 
     .row.justify-content-center.align-items-end.fondo-1.mb-4
